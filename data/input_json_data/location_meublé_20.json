@@ -1,0 +1,378 @@
+{
+  "search_metadata": {
+    "id": "68a87ccbfbbeb537289d163f",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/b2733e1e04bd1638/68a87ccbfbbeb537289d163f.json",
+    "created_at": "2025-08-22 14:20:59 UTC",
+    "processed_at": "2025-08-22 14:20:59 UTC",
+    "google_maps_url": "https://www.google.fr/search?q=location+meubl%C3%A9&hl=fr&tbm=map&tch=1&pb=!4m9!1m3!1d5574.169097588465!2d5.913509845733643!3d45.68928146362305!2m0!3m2!1i784!2i644!4f13.1!7i20!8i20!10b1!12m8!1m1!18b1!2m3!5m1!6e2!20e3!10b1!16b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m42!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e9!2b1!3e2!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!2b1!4b1!9b0!22m6!1sg3qzXsG-JpeGoATHyYKQBw%3A1!2zMWk6MSx0OjExODg3LGU6MCxwOmczcXpYc0ctSnBlR29BVEh5WUtRQnc6MQ!7e81!12e3!17sg3qzXsG-JpeGoATHyYKQBw%3A110!18e15!24m46!1m12!13m6!2b1!3b1!4b1!6i1!8b1!9b1!18m4!3b1!4b1!5b1!6b1!2b1!5m5!2b1!3b1!5b1!6b1!7b1!10m1!8e3!14m1!3b1!17b1!20m2!1e3!1e6!24b1!25b1!26b1!30m1!2b1!36b1!43b1!52b1!55b1!56m2!1b1!3b1!65m5!3m4!1m3!1m2!1i224!2i298!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i458!2i644!1m6!1m2!1i734!2i0!2m2!1i784!2i644!1m6!1m2!1i0!2i0!2m2!1i784!2i20!1m6!1m2!1i0!2i624!2m2!1i784!2i644!34m13!2b1!3b1!4b1!6b1!8m3!1b1!3b1!4b1!9b1!12b1!14b1!20b1!23b1!37m1!1e81!42b1!47m0!49m1!3b1!50m4!2e2!3m2!1b1!3b0!65m0",
+    "raw_html_file": "https://serpapi.com/searches/b2733e1e04bd1638/68a87ccbfbbeb537289d163f.html",
+    "prettify_html_file": "https://serpapi.com/searches/b2733e1e04bd1638/68a87ccbfbbeb537289d163f.prettify",
+    "total_time_taken": 2.25
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "location meublé",
+    "ll": "@45.68928146362305,5.913509845733643,16z",
+    "google_domain": "google.fr",
+    "hl": "fr",
+    "gl": "fr",
+    "start": 20
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "location meublé"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Résidence Le Clos Des Merisiers - 2 Pièces pour 3 Personnes 494",
+      "gps_coordinates": {
+        "latitude": 45.684791564941406,
+        "longitude": 5.9078474044799805
+      },
+      "provider_id": "/g/11whwv384x",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "3 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/tJo1uQlBCUWHBJvyKlURseBLt_HwpmTyhZDVdwy7u-uqF4shlTMh13lgPqnhb-oViqjQRB1lF9x_jNO1XiOMhB8gc1_iRu6cmsUwgRkiT2pgsKoxiWQo8vBGADmuko-rGStEFn-apji7v7LV2RbL8anUrKnqUQ=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/LBl6N3icBcHdboIwGADQJ6qsjAku2cU6h0ZwDkbReEOUkbZQ-gFt-XlSs7fZOX8PbkynXx1H8vWKATBZWV0NJShTKbMqoXW6AebFMQfANpHkg5735DAukaSprkhsiv3UtdnCr9v8d1p8i2wfeprL7Mjxs2TfveJ3BLno6yQlWIabuai_TvgiTkdOAlbiQqR2XbaaTixtROZ2TEcwi3MCwUh279vWNoCG3Y_5DBW6dbXwRz_O3fQeBzdFh0j1NHmbXjYu4t6ThxRqkIJ_SnZNSw"
+    },
+    {
+      "position": 2,
+      "title": "Studio décoré et confortable avec balcon - Proche centre et Parc Floral, idéal pour 1-2 pers. - FR-1-555-59",
+      "gps_coordinates": {
+        "latitude": 45.68682098388672,
+        "longitude": 5.916967868804932
+      },
+      "provider_id": "/g/11wbcx7k9m",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 salle de bain • 5 nuits minimum",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/o1IOQWjouFPfyWXEHc-UPJg9MOcDJlqLpnXb20f-NmibRMpef7ScX3SEbSQpWTjYCTbqLnKoe6lv5JddYMkOkVxPTkNM0TwBXYsxkF6vjrf3npbr4Fx5UjogMMKkZSy3fZWNBMqFNixtRuwUaW4h9U8-raqO8gQ=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/9jIBP3icBcFbcoIwFADQFUWoBCud6Y-tjKLhIVDAP8EAEswNIUjYabubnvP32yolxg_D6Fu8agCank4jlRVwRblaVfA0hAS9GPB2DKKsg8kN6yXL94cKpaHXOCSovr1-OAuel2uzRv7zUV6IoPV7XOVWvC_jSGRJV3wl5XDmJ6Cb_mV793tBWMB-dJgwn5jJvMuLUTN38-pkbXFRSuxqO-2gIeTErvFi1dfM35HB9R9aXaY5vWW4ddItkrch2DbR52w7a9RiEyOOGOLwD_6cTJw"
+    },
+    {
+      "position": 3,
+      "title": "Appartement T1, 28 m² ⭐⭐⭐ Le Petit Nid",
+      "gps_coordinates": {
+        "latitude": 45.68721008300781,
+        "longitude": 5.913731098175049
+      },
+      "provider_id": "/g/11xn94dx3r",
+      "type": "Gîte",
+      "types": [
+        "Gîte"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/9hOfQWVa3cv9-pd1zRfEP5osnekqDYnnzX15AQ7vZscUWhPBOwY-_Qul6GJKIEM51gATiIbNQv1l4S9OCXyhXvAHslmoFU88hOcO9pocK9g1d7IA7PHmUtfKeEZd7TX0lYMnIeaWZ2KH_CImdQhS9wzI5yK1aA=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/qVDgNHicBcFtU4MgAADgX8QcS3J01wdalsQtdZv58mVniNINwQbT9I92_Zue5-9XOjfYB89TEq06YzolblZcudFOaLfipveGq_mZPSzjNs0_6js-YjA0cDm0YYKM1eLy_VxqvRQQkTQYK8uzXCZP8VSCc3pT969vjIZ7BDty-qKf7-kIlX_E8a6YZTGSyKrevGTbrYx5jAfDGe5gE1ASJFGfuZaJsGqCU7FW5V5TUefVhkXnHe2bVB7xtFA0M1iTxwnhDZD-2gcaXIA2_yT7SjA"
+    },
+    {
+      "position": 4,
+      "title": "T1 moderne, cosy au centre-ville d'Aix-les-Bains, proche des thermes et commerces! - FR-1-555-33",
+      "gps_coordinates": {
+        "latitude": 45.688072204589844,
+        "longitude": 5.913908004760742
+      },
+      "provider_id": "/g/11x1v1rxq4",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 salle de bain",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/mtcpXP_WSKuQryAJ3YKoGFa9ftx4ngObZF8uZUZ9Ia2_FQrS4Q9bqAouFvss9aK6kj58GL74SKdDK9dSlZumFHHfDAfl6lXXEo9YIQHcrEyPbBX9rY_PZ0F3TImRqiB5IqylV5eFZRKTjjtnR7hui_nm7LEI0G4=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/4iI_IHicBcHbboIwAADQL0KItmKX7AEjhVoTubgN-kIAuYilhdJu8qfb3-ycv99e62l5s23ew00nZccbszSqlkI3Qm9qOdqTkq_VHnU9ZVHxlVITq9U773IqA1yiVr-A6K4VwwfDPhgi5bbAsUpBjKrZkwZ_Lwsq6f45wENwcUFK7yeK7ilnZsRh2J68lu95lvkS5SQOa-WvUXXMkMqLiDl4dyNjMj-OkMwr_4QNZgm9DYMWidubRyFG9-ITJwDvPxBtrR44wBLW0xLyH6qeSwc"
+    },
+    {
+      "position": 5,
+      "title": "Appartement T2 proche des Thermes",
+      "gps_coordinates": {
+        "latitude": 45.693321228027344,
+        "longitude": 5.916379928588867
+      },
+      "provider_id": "/g/11kj5mcd2k",
+      "rating": 4.7,
+      "reviews": 25,
+      "price": "94 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/jNc2UK7l-0543h7LjRgVRl535gHSK0xgADikzpD4xYO7vrxA6o9DtlweXyxA2fUyUflBjMpUENcfsJ5xxSb2QUzevrE1qUt06Vkdf69cYZPgYAHuWO3qs-lCkXArE53wOfBWPjvtfBNArZwLE_fQpNbGXs_jxw=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/2mv-EXicBcHbboIwAADQL6owoBCW7KEMolEHXlIFX0xkbVnpKLaVFn_U7G92zt-rM2bU754nunjBpGSCPDRRrRwMGcyilb_eqKSbPV62Ad4kAvgwCrtkyw_sdBAwhGx13PiOofynf4555JoqmZRDsUxzIyypZ4cCimdMRca_RlyULdVr6NzxFuzxk0yqeLtj48en_pvGadtcdqxBq8e5Cu8aiM--RqqAoa1odt7xydCsROpit8WV7sfytqz1lTv7YWEagC7yIzCAHgzyHy61S7Y"
+    },
+    {
+      "position": 6,
+      "title": "Résidence Montcalm D - Mignon logement, très agréable avec piscine, tennis ! MAE-6794",
+      "gps_coordinates": {
+        "latitude": 45.682838439941406,
+        "longitude": 5.914070129394531
+      },
+      "provider_id": "/g/11w_dfb_fv",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/tSzdvnlp4-6o04kaSZE3bfC7k56-bfzMGYgZ-CijOl0JK8EabSr-4H7KnQyn35s6jLVz6kWVdxqEu8Fz-RhHSsei32TR8U2tlkRvHspfPVjtsqwqNJXtyJIaFRXT8ZMxDlJcxOZWPn_v7u3Jwmt6T3M1GG8tkQ=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/wetCZXicBcFLcoIwAADQE0UoCYF2piuL0FiqAkVl4wDykcQESPhetNPb9L2_31qpVr5pGqvRphKiYsUgiz4XXBVcbXLx1NpezIumwvU-ctYigIWOaBomDszKrUVNDLJy9d1rlYDtozkwnextJ83CHiDP2vPTwqEpcfMVr5ie4_vcOYO9W0FQe6EsHtCIAvvHUIwGoyfb8hg3SnZT900uaiGf6S64RHbizx-M5PMhOR_5bbQGSKanwhH0X1zXVvT0PpmvBqiRjgAHFHDxDzdKSy0"
+    },
+    {
+      "position": 7,
+      "title": "Résidence Le Chateau Durieux 1 - 2 Pièces pour 2 Personnes 864",
+      "gps_coordinates": {
+        "latitude": 45.69108581542969,
+        "longitude": 5.915500164031982
+      },
+      "provider_id": "/g/11x1d906hx",
+      "rating": 1.5,
+      "reviews": 1,
+      "price": "155 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/CgYcR028c6CBwl0dI7HlVqJ9LbjlP19kA4NtwyLqj41cwiYpZhw83tbnfsDKb0hGP3xXTI5UXSnNAofXBdCoNd6X-Aqz5Ey_Yzy8UuPSmmoKgPEGnYzkO6YvsRB6McL7r-Dwpn02eap1NsNYfedn7l_bIt0s3g=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/U5GJJXicBcHbToMwAADQL-oodzDxAdgycVjJ5gz1ZZECraO0QDs7-FGzv_Gcxx_TelRPlsVZsKFSUt7eVDsTKXQr9IbIwRpneV-sjGJyhE5Egiw1HDZ5-MI_p9e4qK-8tOM-8ZA2SzFdPZuYHzx-MRO5uhad2h5qyPale68-cv9cnQRKZFelTSZRE1QgmVZ_t1zwukTnW3kaBnmg5W4v8Nq_B_hXHdPgjRThDLZmFNBpv0cbKYS7thEhv9S5hsqlz8aPHcA86AEBeiDkPzOsS0I"
+    },
+    {
+      "position": 8,
+      "title": "Le cocon aixois",
+      "gps_coordinates": {
+        "latitude": 45.69092559814453,
+        "longitude": 5.9134521484375
+      },
+      "provider_id": "/g/11w804kbpx",
+      "rating": 2.5,
+      "reviews": 2,
+      "price": "89 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/lm_dtyykBYnIe-thMWU-UBD2ohdu9MpUDx_5TiMz5Dg94A2f4aiUOK67OH-n9k_mC0K8Aa2lAo8Xa82xK0-m58XODtn0xtMd_o-Hi6eAFOJTQv3eJ2ofRjV8tTQ-s1SSnqL8o6GcOm0ojJK-bHJNu1KgcD82vA=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/PN_6BXicBcHRToMwFADQL7qDdYBliQ-dRJGKzRzofCIIHWXQXhxlA3_U-Dee8_errB3GreP0arNqEJteTqO8VGisNHZVoXaGC86L0-uitsvS7T7NswSr0o8c8l1EUNVTmA55NBd-1qY_ftSEHiMnr2xzwYM7EYMJu0I_uJyykvQM6bGkZOYuaJ8eRWSNO9u0LhDiNpDsUSTZ_rqRCcHT2_md2mwP4_pwMN8vFIOnSmgXzwmHrzh5nda8qSJKruz-5ocElOd6YKADg_-4VUi5"
+    },
+    {
+      "position": 9,
+      "title": "Residence Confidence Urbaine - Studio pour 2 Personnes 154",
+      "gps_coordinates": {
+        "latitude": 45.68656539916992,
+        "longitude": 5.908443927764893
+      },
+      "provider_id": "/g/11vz2fd3zx",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/3Q4tEv8u8ArMr_h3zQcaqoD0FVln3ETiFyYB5XOW0jyOuHqpyR60SPexiGrl7Z9v-7FK5UaO9Z3keZfo_iBIZ2x6xvvHuWoXXipFu1Zl97OWh2IbGel64zMPbHXQQjzjl2pAG6Fbdl60n5PZmtMp85r1Nd9b1w=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/orFEpnicBcHbboIwAADQL0IupQWW7EEzC2ZhwOYG64sR7CxY21pbBH502d_snL9fZoy6P7kuZ2B1lvLMqb1T3UlhqDCrTl5dpeU0u6AKzXaMbbzWuT4wsFTd8SZfPPzFBdjuezx_b2BT1N4wFza7qfkdeR8lnfpU84gkoxPhV_h5LBICLpT8yEO_2ZFgQtM4ZraWTdMrbH3Ck6ioWbBrU8pRuORlmzVVNSwDD9Q6Rbg9ceQJWJKryVUMtf92Slr_8fyASeCw0Asd4VwcIf8BRXBKqA"
+    },
+    {
+      "position": 10,
+      "title": "Appartement Jules Verne - À La Belle Époque, villa bourgeoise",
+      "gps_coordinates": {
+        "latitude": 45.680999755859375,
+        "longitude": 5.9130539894104
+      },
+      "provider_id": "/g/11l1hycj_8",
+      "rating": 2.85,
+      "reviews": 1,
+      "price": "87 $US",
+      "type": "Gîte",
+      "types": [
+        "Gîte"
+      ],
+      "description": "4 personne(s) • 1 chambre • 3 lits",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/2vPomkf4jIgw5Mwx86hVB5roNix33QEt7TOGXWY0A6LhfAVyK7RneBuszncwUw1o7SETBdHcf9mU8f6VMY0H5bETl5Q2Q-akKcs5icNftQS4NbGACsWgYGQPjdyFlfR9Hv7PEVjBwBmH5Qu6RzGGMcjcSMjFyfM=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/WXHvAXicBcHhcoIgAADgJzKdiebu9kM7w13DiZrNn0UioUInGNqTbm-z7_v7ZVo_1LttD8zbdFJ2QzurdiJS6FboDZGj_ZjkstruM5djTz3-2RmAzLLzWR2DSWb3ZbvFiQ6qb_hzbpzI_2I0qtdjUIg2ntVLEHMybzIokyq-pYSG42lH_Ro1TgquSTUA7GLr0h-JAneSUY1LL7vCaK_OXQNxzm_rYaBFmD6DPKl5bOIxBXj2ixeEiHBSIn5YKfowIHQt5jmeJazeEvIfcgFK3g"
+    },
+    {
+      "position": 11,
+      "title": "Quiet street near a forest, 5 minutes from the lake and 25 minutes from Le Revard.",
+      "gps_coordinates": {
+        "latitude": 45.68196487426758,
+        "longitude": 5.903090953826904
+      },
+      "provider_id": "/g/11xd3bsv4w",
+      "rating": 3.5,
+      "reviews": 2,
+      "price": "134 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "5 personne(s) • 2 chambres • 5 lits",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/RO_snRZzYyggmgsZoyznQjWAE3AiKssAMgMZCEGIPgxsLaQa8aqM74dyMe4XlVfhEvx5IduGz-hxhgKD9qMRcwMpL_fDGjp5mOTuUmdJeaWYNJyLfCXb5OQVdv76QTfrF-8jww3i1IhLfLqcLAdkMNwFIfzTiw=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/2WnMvnicBcHbboIwAADQL6pss0xdsgeiSNBWBmFeeDGM3kBogYKl_Oiyv9k5f79iGFr94Ti1gAuuFK_pqGlfKDlQOSwK1ThtrybrJNFdyySbb5bzhutM2VnG1cXzl1551NrDHGdbPwi_-KRRHufrvMMrSCym8FqfmfCfkxuSMZiBmAQ_7jYdTgqDW3Rnu6Bq3SZKx--GHGh-uZ0OFrHt9ceN4jN5rt7jlPV7sK6MWZavoUAMdQXyyAOfzD5kc1qaT-Nu3oCALxBI8ABS_QNnok1T"
+    },
+    {
+      "position": 12,
+      "title": "Résidence Le Chateau Durieux 4 - Studio pour 2 Personnes 994",
+      "gps_coordinates": {
+        "latitude": 45.69173812866211,
+        "longitude": 5.9153289794921875
+      },
+      "provider_id": "/g/11y5zdcf8m",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/tqvZaFwGlIyo-daXY2BVeoECgl693GK-kxkIQE1hnt1xm5mAzP0RKxqesNlkfRqywH8wHKmYcrQ5VIgUcwbxGIyMMb--2pecbhpxUcfk1k_sD-pUaq6wbZBKrGASZPOVxxsB6EtsHmHxDvKoP1aqIDEIrXR75kE=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/2QjgInicBcHbToMwAADQL-oYCOhMfBjSQdNMGQay8WKg6yApvdDWtfil7m885_E3WavMaxDMU7wZpRxn-mOoJlJYKuyGSB4oLf0a2OXe9QdXzGiV4NqfL1HWUgnfxzndPRUYMM_QCYaTsKHnCd__Vtsa-4Waj5nd6mV15YsrMb8QfUpaNDbEDb5A6_E4ABApSoZJ-YbcWMi-TQ5U0y-pG7oM62L_1VWfrfcmS6E1JS99fseyCvsF5RDpc_2cMPjmkl0EpngbAwEYEPIfXeJM_A"
+    },
+    {
+      "position": 13,
+      "title": "Residence Du Temple - Studio pour 2 Personnes 124",
+      "gps_coordinates": {
+        "latitude": 45.691463470458984,
+        "longitude": 5.911417007446289
+      },
+      "provider_id": "/g/11w1vm07m6",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/1sXBKpikW2sQflyR-ahOuC02F_KNDt5-jquBzzs4kvpNIE1qjLYnvpp1hiHOV80BZEO7yXEKFZtUcj4wURgsZBqX9KDy3srjzuiZcZv1Kl2uAtHCQ1ot6XWwuL8vlU7crOjCz-5fty-78c6pyXpclNtECcdCmBw=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/zWsQEHicBcHdboIwGADQJ6r8DASX7GJUjEsNRBNmx81iKlKgtoV-hZUn3d5m5_z9cgBtXj1P8HjTKtWKxppmYkpCI2HD1NPTk_pxXmBoRnQ3XENzfgh3QTdeWuyHh29S7CFG_WizdTXRMOviIw_G_vQlZ60D3h3Lz9TP6rxMHM3JoYaK9dFSXVpTZyPdkb17MVO_2q5m9RwQEdp3OOJzoGBLr4s9pbOoEjaVPV5R_ACHkpRttaOaiQJyzO74mS1vS7wLEY_8CEk0IKn-AQisTKc"
+    },
+    {
+      "position": 14,
+      "title": "Studio moderne et lumineux centre ville Aix les Bains",
+      "gps_coordinates": {
+        "latitude": 45.68998336791992,
+        "longitude": 5.909790992736816
+      },
+      "provider_id": "/g/11wbcrkw5c",
+      "rating": 4.55,
+      "reviews": 22,
+      "price": "90 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 salle de bain • 2 nuits minimum",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/_mVmd9zD-Rt2dTJK0KJNYW5SHdihqeGo9USN2QG30572PKTuGiiG9EXnT3CFTb9cG1Bm4WI1GxitHx5N9lCcCNy28PJYc6QmTAjE8jY1AggLhSxaBxzKxSqHNR4Cefn3YRRvgNvjFyQpjijgyzTt0yUt9dmHGEE=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/5NKR2XicBcHhUoMgAADgJ3Iqao3u-rGZw7TjprKWv7pCQkjAbWyBT1pv0_f9_Y7WzpeHMJzGZMWN4RO7XtiZGm2ZtitqVDifjfPhu3pVA1yegtaCgVR1VFe4P2ZdOYjxxJCBhw6DBiVRdg_2NbkiIRAs3jRJ8h35hBTFW5Uen2PkhC1dhuGU0xx7sN5XPb1rFNnIYi37eMP5y9i5j61batedStymOfvSSd-2N45vcuebWQrJ_UJs5A8WDqpERfH4k0EQjGmUBjr4DrT5B7hZSj0"
+    },
+    {
+      "position": 15,
+      "title": "Appartement T2, 43 m² ⭐⭐⭐ Residence Le 29, avec parking et balcon",
+      "gps_coordinates": {
+        "latitude": 45.69582748413086,
+        "longitude": 5.911539077758789
+      },
+      "provider_id": "/g/11xlm46yct",
+      "type": "Gîte",
+      "types": [
+        "Gîte"
+      ],
+      "description": "4 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/tRBuCpFwxBAYzyzCvoGz2eF9o7AqT09-m22BW-phZLnIfC6sX7-OvptbTuvJPS9_yIzo5dorPv2Xwg_8fvDDng9kvvozx5nGMRzvjmxxAu80sUZiVgQ8dFXRRoVEZttWJePxGIXrAwNil_6N2ACvYa6ZjlhDtO8=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/qgDHvHicBcHdboIwGADQJ6qQRpAu2UWBQTCbMuYUuSH-YKtCvw5KKX3S7W12zt8vV0oOL47Tcn_BAFjbjEPTX0CoRqjFBTpH9mBmRxXhGMlkMiE92tlGGlKLm4TAiv7sXII6jMMDkrx6F9kt8odyhbZaqvNu1Ov8i9RzZsG7Qp9rXE6sDm46jgUjT63BGk-kH4XVj84YOgbu8F3d9-wzuCZlUcD-rVLqsG5yk2ZlT6fNva39DaaRPp786tHyWG2D18kjGPGlu0QCPZGAf1kQTV0"
+    },
+    {
+      "position": 16,
+      "title": "Résidence Le Saint Charles B - Appartement de standing à proximité des Thermes Chevalley ! MAE-6514",
+      "gps_coordinates": {
+        "latitude": 45.69057846069336,
+        "longitude": 5.919169902801514
+      },
+      "provider_id": "/g/11ydz6wlm0",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "4 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/vcq8Aa_n2Czi8dc-05ixPRSAzHv7pwZ4ck8AO3_fdGBy-Jgc5WrVU7_l5MYJcxtzduTjdlaKPVmNamUXBhuH2b_LZAFgB4-NjRhJ7QnbhatFtuHcOLeARWduMBe0seKgMa1z3fyqJ3pBL8OKtCGG4qDWY1YeJmo=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/a76MC3icBcHbboIwAADQL6ogl8CW7IG6CCkgjqkMX0hta6tCy6Uo8KXb3-ycv1-hdTu8G0Yt7BVXitdsHFhPlNRM6hVRjdH2apqNJ-n8AFfS2iw3nxJgurdpn38HS_T02tfZIQ8_yOzqSkM4A8SJW_Sno1fVbloiMumFjoc7rXG8PzU73Bx_oBgj61Il52DLoQN291wg70teBNZbPUYkS1iQF3RMITMHFvMUrxf7OnfIbmHiZ7HehKHTfRblumSoUR8v980CwjEdIMEDSPUPxZlLjw"
+    },
+    {
+      "position": 17,
+      "title": "Les jardins de marlioz appartement 3 chambres et parkings",
+      "gps_coordinates": {
+        "latitude": 45.684669494628906,
+        "longitude": 5.913090229034424
+      },
+      "provider_id": "/g/11xft6nysf",
+      "type": "Maison",
+      "types": [
+        "Maison"
+      ],
+      "description": "6 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/nXiyZGeqvxnF2H2Dwn5lg2D-MFnvCAw7Jcz80AmN93wKd6RqztJeARBTvYfmD4g5cv3wfKgUuAZ3W-PcFj12WZvyNeNb2JUiS-z9j3EQjLZEH9kyY1qWEOcgfsBvrLGrwwe-m3SnGBdDFm-voESEACYsivSRVg=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/IjZRfXicBcHRVoIwAADQL5roBhWd08OQgQeNClKEx-YYINsE5ib8aKe_6d6_30br2_TqOH3jrbhSvGf3iY1USc2kXlElnNuoHrMjz-1cxWwwDxnBHQyt9HoOQ_AeSbPF9jmhy8sai9RHdn95yoZFJwxnwbcpaxG63KMG2XrPj3dcoQJ80qjbwKIyc8rSH5gc2xwsfofIV3eoyM6_zuVmKMgH5fUUmPEQj9YyIFAu4-ASRgIYRXKCt-XUmjw78Tfr-RA07toFElyBVP9Op0sI"
+    },
+    {
+      "position": 18,
+      "title": "Villa des Rubens",
+      "gps_coordinates": {
+        "latitude": 45.7071418762207,
+        "longitude": 5.932139873504639
+      },
+      "provider_id": "/g/11ssgc2596",
+      "rating": 4.45,
+      "reviews": 161,
+      "price": "107 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "8 personne(s) • 5 chambres • 4 lits",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/Nw8dHraezhy6FEOf1g8H4uYAeuAynfux0vRED-NqMrb9Qe9UvEQDKMi_yMzd59-kvBnFJITV2g_L_hN9q9gHZ6zXKKJvqZ3RIo9ruJEEuFbZQxtdnZH2uW3ofGf6xWKn_5GykLc0ijolL-ef2A0_5hVR-TCVZg=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/_q85fXicBcHbToMwAADQL-pAbllNfEAHY9wMZGPal8ZBLxNsR9cy4EeNf-M5f79c69v92bIG7m6YlGwg5k5UK4UmQm9a-WPdlJwXq3xsu0R9kZUvQRy90ye2TTzzGRITLoKa2Z7qaAfKsVAXWBF4mqJqlxVXvBRr50PQT68iTg_HxmE4x7yEI2QJCtaPLEunEbn1QUJl0igy8QVVs-4EShxzdiXd02A-ZwL7-6XPW_v6LYccEOqENvZ5U4PjW4PYy8OHDuCe7QEBeiDkP3orSw0"
+    },
+    {
+      "position": 19,
+      "title": "Apartment tresserve panoramic view",
+      "gps_coordinates": {
+        "latitude": 45.68627166748047,
+        "longitude": 5.902910232543945
+      },
+      "provider_id": "/g/11x90481fy",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "6 personne(s) • 3 chambres • 1 lit",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/7PHS3MRJQhAHn-flfQ3ZZPnDV2UIM2in_F8swYb2Yjk1xOoZk8GSLk7Pa507dMoJSQv_E2jSAHSw1ijYRayUpxBOuLD3npLYvV1NUaYrRfO3qagXS_F9J-VFqwVcUJyZ2YADthCXILYdkka4-V9oA3jyVVSPCoo=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/oKyhVHicBcHbboIwGADgJ6pIgSBLdsFkiATGoaGx3JAOOUhZfwQUeFN9m33f-9XO8zB9KErfGrsGoOmrx1SNJci5kvOuhD9lGGHdFDP2iBamftLankR1XydansfSoTg7h_gmC_cwLewXs06oawS5OJxIIMyYG3vzGoJPkmfxjTtie2RRbx1L-ZYN61f0CBxNDgF7UvUn42xM60i78-ZCCtfyEXXvCy0zf8sxs525PV7OAbsKwXVELbC1bqOUxEeAz8WwMGr1vY4kEkjCPxqzSno"
+    },
+    {
+      "position": 20,
+      "title": "PHILIBERT",
+      "gps_coordinates": {
+        "latitude": 45.69575500488281,
+        "longitude": 5.90959358215332
+      },
+      "provider_id": "/g/11y34prt4h",
+      "rating": 4.447619,
+      "reviews": 21,
+      "price": "97 $US",
+      "type": "Gîte",
+      "types": [
+        "Gîte"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/4D7df6O7_XkHAms8octdRaKeDB1wlH6fx_4WrjnctP_dValrcZCvfmyTeVkM35EbgijTkoN1Bz_WM-Vdqmg_J5_9eLc2ZBx84OI9RwUxeQ1rmhK52vVecYrfT3oDLo0h_qDXxAY1IQGirHIiiznfTSufXhGhNNo=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/K_nTjnicBcFBcoIwFADQEyGCiUpnupDSEapitRTRTUZDQhCSryFK9KT2Nn3v7yWMuXRvrtsKPKgAqpbdOqYpKMOUGVCQ7kWDfbgompR8vJ6QoolnspsCNeX2uGBR6PVtPOaWoJ0-K2q-SZkfW00PH3cuHxnLm9UIf56q-pw1kHrhk-xWTl5eZUW-MAnYkvqH0E7ROgm2_a9lG09LscD-PWd0r3k2gmgJQ0GuUWFney_ZzGsdJ3X9VDz7ufFCzEWawnuPA98RaIgc5TSOgn8PL0y7"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&gl=fr&google_domain=google.fr&hl=fr&ll=%4045.68928146362305%2C5.913509845733643%2C16z&q=location+meubl%C3%A9&start=40&type=search",
+    "current": "https://serpapi.com/search.json?engine=google_maps&gl=fr&google_domain=google.fr&hl=fr&ll=%4045.68928146362305%2C5.913509845733643%2C16z&q=location+meubl%C3%A9&start=20&type=search",
+    "previous": "https://serpapi.com/search.json?engine=google_maps&gl=fr&google_domain=google.fr&hl=fr&ll=%4045.68928146362305%2C5.913509845733643%2C16z&q=location+meubl%C3%A9&start=0&type=search"
+  }
+}

@@ -1,0 +1,728 @@
+{
+  "search_metadata": {
+    "id": "68a87cfb69a32233a5b4d963",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/f6bf7f4cd89567ae/68a87cfb69a32233a5b4d963.json",
+    "created_at": "2025-08-22 14:21:47 UTC",
+    "processed_at": "2025-08-22 14:21:47 UTC",
+    "google_maps_url": "https://www.google.fr/search?q=location+airbnb&hl=fr&tbm=map&tch=1&pb=!4m9!1m3!1d5574.169097588465!2d5.913509845733643!3d45.68928146362305!2m0!3m2!1i784!2i644!4f13.1!7i20!8i20!10b1!12m8!1m1!18b1!2m3!5m1!6e2!20e3!10b1!16b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m42!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e3!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e3!2b1!3e2!1m3!1e9!2b1!3e2!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!2b1!4b1!9b0!22m6!1sg3qzXsG-JpeGoATHyYKQBw%3A1!2zMWk6MSx0OjExODg3LGU6MCxwOmczcXpYc0ctSnBlR29BVEh5WUtRQnc6MQ!7e81!12e3!17sg3qzXsG-JpeGoATHyYKQBw%3A110!18e15!24m46!1m12!13m6!2b1!3b1!4b1!6i1!8b1!9b1!18m4!3b1!4b1!5b1!6b1!2b1!5m5!2b1!3b1!5b1!6b1!7b1!10m1!8e3!14m1!3b1!17b1!20m2!1e3!1e6!24b1!25b1!26b1!30m1!2b1!36b1!43b1!52b1!55b1!56m2!1b1!3b1!65m5!3m4!1m3!1m2!1i224!2i298!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i458!2i644!1m6!1m2!1i734!2i0!2m2!1i784!2i644!1m6!1m2!1i0!2i0!2m2!1i784!2i20!1m6!1m2!1i0!2i624!2m2!1i784!2i644!34m13!2b1!3b1!4b1!6b1!8m3!1b1!3b1!4b1!9b1!12b1!14b1!20b1!23b1!37m1!1e81!42b1!47m0!49m1!3b1!50m4!2e2!3m2!1b1!3b0!65m0",
+    "raw_html_file": "https://serpapi.com/searches/f6bf7f4cd89567ae/68a87cfb69a32233a5b4d963.html",
+    "prettify_html_file": "https://serpapi.com/searches/f6bf7f4cd89567ae/68a87cfb69a32233a5b4d963.prettify",
+    "total_time_taken": 0.8
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "location airbnb",
+    "ll": "@45.68928146362305,5.913509845733643,16z",
+    "google_domain": "google.fr",
+    "hl": "fr",
+    "gl": "fr",
+    "start": 20
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "location airbnb"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Location studio 202 Le MontCalm C",
+      "place_id": "ChIJ6eUa2rCgi0cRNOJzgEvi4OE",
+      "data_id": "0x478ba0b0da1ae5e9:0xe1e0e24b8073e234",
+      "data_cid": "16276257867222475316",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0b0da1ae5e9%3A0xe1e0e24b8073e234&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0b0da1ae5e9%3A0xe1e0e24b8073e234&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.683160199999996,
+        "longitude": 5.9146361
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ6eUa2rCgi0cRNOJzgEvi4OE",
+      "provider_id": "/g/11h03gtqs_",
+      "rating": 4.4,
+      "reviews": 7,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "vacation_appartment"
+      ],
+      "address": "9 Mnt des Carrières Romaines, 73100 Aix-les-Bains, France",
+      "website": "https://meubles-aixlesbains.com/",
+      "user_review": "\"Appartement très agréable résidence calme\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN6aTv8a-vnBvsNR9wOOhcEhSwpFB1FWnR7dwtH=w163-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/BBNK6XicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngZ5YYUmaRqFuW51RW7BdkWe7vn5HsmhFcXuDmZOgWnhdknlJe4mFbbmhmrJthaaSbrZuXDwCwIyGE"
+    },
+    {
+      "position": 2,
+      "title": "Dolce Vita",
+      "place_id": "ChIJh9CzsH-hi0cRRdmvFqDEGfg",
+      "data_id": "0x478ba17fb0b3d087:0xf819c4a016afd945",
+      "data_cid": "17877536387678329157",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba17fb0b3d087%3A0xf819c4a016afd945&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba17fb0b3d087%3A0xf819c4a016afd945&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6914476,
+        "longitude": 5.9167973
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJh9CzsH-hi0cRRdmvFqDEGfg",
+      "provider_id": "/g/11jylvwx13",
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "22 Bd des Côtes, 73100 Aix-les-Bains, France",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOnaKlFREbT-dZgRay64t9W9PH38NduWXgDoAaI=w80-h106-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/O1_cUHicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngn5foneMW5JoUopsSlR6UWGlmUmIZbhngYWzhl1IaHpHuku-Y6GlbbmGgm2FoYKabrZuXDwCfhyDh"
+    },
+    {
+      "position": 3,
+      "title": "Studio Bali 2**",
+      "place_id": "ChIJg1FQiIChi0cRc2jjwktcZCQ",
+      "data_id": "0x478ba18088505183:0x24645c4bc2e36873",
+      "data_cid": "2622322363498457203",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba18088505183%3A0x24645c4bc2e36873&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba18088505183%3A0x24645c4bc2e36873&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6853237,
+        "longitude": 5.913868099999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJg1FQiIChi0cRc2jjwktcZCQ",
+      "provider_id": "/g/11pdfzxz_r",
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "3 Rue Isaline, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 23 71 23 83",
+      "website": "http://www.aix-studio.com/",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM7pZsguEsSkhjmb8ZhUSgddFjw1QkI_DUUTjRn=w137-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/nxqef3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFnga14QVZxe6locnJ2RlZtkEZURGpyekuKWVW4YmO0Z7xIaGpIVlGdbbmhsrpthaaSbrZuXDwDLAyIq"
+    },
+    {
+      "position": 4,
+      "title": "CHARMETE - M et F SALOME",
+      "place_id": "ChIJM_nEOJSgi0cRSmLskx-p2ck",
+      "data_id": "0x478ba09438c4f933:0xc9d9a91f93ec624a",
+      "data_cid": "14544842424660550218",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba09438c4f933%3A0xc9d9a91f93ec624a&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba09438c4f933%3A0xc9d9a91f93ec624a&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6971019,
+        "longitude": 5.9189894
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJM_nEOJSgi0cRSmLskx-p2ck",
+      "provider_id": "/g/11b73qdns3",
+      "rating": 4.7,
+      "reviews": 18,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "4 Imp. du Petit Chantemerle, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 85 40 13 30",
+      "user_review": "\"Très propre, bien équipé, et propriétaires très accueillants et charmants.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPT5I2ENSFjQhozl-lqj2UGZcvNt54bqVf4H4Jl=w141-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/q0xhG3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQEGLqaeTqF-yWFZiRX5Wjm1OYZRTqHpVc5ldiapJUGJZm4mHilWNbbmhiqJthaaSbrZuXDwCfoCEF"
+    },
+    {
+      "position": 5,
+      "title": "Appartement LE TILLET Airbnb Gérard",
+      "place_id": "ChIJCWAQMgALi0cRo_4xXCN_JUU",
+      "data_id": "0x478b0b0032106009:0x45257f235c31fea3",
+      "data_cid": "4982528352602685091",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478b0b0032106009%3A0x45257f235c31fea3&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478b0b0032106009%3A0x45257f235c31fea3&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.694933,
+        "longitude": 5.8901069999999995
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJCWAQMgALi0cRo_4xXCN_JUU",
+      "provider_id": "/g/11wwg2pwpq",
+      "rating": 2,
+      "reviews": 1,
+      "unclaimed_listing": true,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "20 Rue du Tillet, 73100 Aix-les-Bains, France",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npFoMhYmCSi8mTu5zXnPNh8tgvvN7cJNjuWYMIZhvTou0ZG1amdN3AfHtYUB_cu-jsKUUsgGnPe3WEmoy9p0BrPgI-DHTilzdiTIbmt4siBDpTEOmgECEOkLoz89h9hpWScszi0=w129-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/zoMFwnicBcHRboIwFADQL6qgaEaX7EGQKdtEEksYviyust4q7W28Lcv4v33E_mbn_P2C944eo2iAZKYQ1dAH6u8Sre-tn0k0kXLEJDGK1jmHpXXPuIfO5EedGhFW07utK0i9GsfqQb5U19B2-_IEo8AQn7bzs7lUyfpr57sm-5CBXem1aUhtbd0nbWHwh7s4u9eqZJud0MN00aL8NH5JOts4URyMKvLicHvDKeXAwbVHSZOOn77nC86AL9iNWfwHW29GGg"
+    },
+    {
+      "position": 6,
+      "title": "La Conciergerie de Savoie",
+      "place_id": "ChIJk5Tod1mhi0cRRc_jSW-dtjw",
+      "data_id": "0x478ba15977e89493:0x3cb69d6f49e3cf45",
+      "data_cid": "4374857189343612741",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba15977e89493%3A0x3cb69d6f49e3cf45&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba15977e89493%3A0x3cb69d6f49e3cf45&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.749487699999996,
+        "longitude": 5.9980214
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJk5Tod1mhi0cRRc_jSW-dtjw",
+      "provider_id": "/g/11lrdlr4n5",
+      "rating": 5,
+      "reviews": 46,
+      "type": "Agence immobilière",
+      "types": [
+        "Agence immobilière",
+        "Agence de location d'appartements",
+        "Agence de location de chalets",
+        "Service establishment",
+        "Agence de location immobilière",
+        "Agence de location de maisons de vacances"
+      ],
+      "type_id": "real_estate_agency",
+      "type_ids": [
+        "real_estate_agency",
+        "apartment_rental_agency",
+        "cabin_rental_agency",
+        "establishment_service",
+        "real_estate_rental_agency",
+        "vacation_home_rental_agency"
+      ],
+      "open_state": "Ouvert ⋅ Ferme à 19:00",
+      "hours": "Ouvert ⋅ Ferme à 19:00",
+      "operating_hours": {
+        "vendredi": "08:00–19:00",
+        "samedi": "08:00–12:30",
+        "dimanche": "08:00–12:30",
+        "lundi": "08:00–19:00",
+        "mardi": "08:00–19:00",
+        "mercredi": "08:00–19:00",
+        "jeudi": "08:00–19:00"
+      },
+      "phone": "+33 6 04 16 25 69",
+      "website": "https://www.laconciergeriedesavoie.com/",
+      "unsupported_extensions": [
+        {
+          "service_options": [
+            "Rendez-vous en ligne"
+          ]
+        }
+      ],
+      "service_options": {
+        "rendez_vous_en_ligne": false
+      },
+      "user_review": "\"Nous avons passé un agréable séjour dans votre logement.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNtU95vNpKIBkUbdM8lqdpAHnpteUgqak7qKXJj=w137-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/jqqaBHicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngVxJqaVrmV-Dt6ZQdmpTia5FTmFLg6JFXUJIaml6YmG1e6B3hlWVbbmhsrpthaaSbrZuXDwC8niIA"
+    },
+    {
+      "position": 7,
+      "title": "Villa les Poussins",
+      "place_id": "ChIJsQLX_c4Li0cRsKgdD-E6phI",
+      "data_id": "0x478b0bcefdd702b1:0x12a63ae10f1da8b0",
+      "data_cid": "1343826277112326320",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478b0bcefdd702b1%3A0x12a63ae10f1da8b0&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478b0bcefdd702b1%3A0x12a63ae10f1da8b0&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6960072,
+        "longitude": 5.8968174
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJsQLX_c4Li0cRsKgdD-E6phI",
+      "provider_id": "/g/11swp8r6mp",
+      "rating": 4.9,
+      "reviews": 67,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "72 Bd Pierpont Morgan, 73100 Aix-les-Bains, France",
+      "phone": "+33 7 69 29 47 94",
+      "website": "http://www.locaix.com/",
+      "user_review": "\"Appartement spacieux, lumineux , meublé avec goût et qualité.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMgos6TiRpQuTCKJ9lLwtzcsoVoEzfs5JdphRSB=w142-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/57q96nicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngm55fbBaSGVQQWBri7O1lmeNTXlKVXJwflu9alVZs6pVSkBEU7GRbbmhipJthaaSbrZuXDwDM5yJQ"
+    },
+    {
+      "position": 8,
+      "title": "Esprit Appart Suite 318",
+      "place_id": "ChIJwWBn_Ligi0cRWtZqhabD8nA",
+      "data_id": "0x478ba0b8fc6760c1:0x70f2c3a6856ad65a",
+      "data_cid": "8138782596582266458",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0b8fc6760c1%3A0x70f2c3a6856ad65a&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0b8fc6760c1%3A0x70f2c3a6856ad65a&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.687163399999996,
+        "longitude": 5.9187522999999995
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJwWBn_Ligi0cRWtZqhabD8nA",
+      "provider_id": "/g/11g0hnztz7",
+      "type": "Hôtel",
+      "types": [
+        "Hôtel"
+      ],
+      "type_id": "hotel",
+      "type_ids": [
+        "hotel"
+      ],
+      "address": "33 Rue Georges 1er, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 70 48 88 97",
+      "website": "https://lili737.wixsite.com/aixmeublesuiteroyal",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNRb4MV1HfWuIB5tK2-_O9HXH06xCGJy6ZducaW=w138-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/glcuXXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngF5Rk4htm6JEWXurpZFribaQb72_pEeFhYFbh7O5VaRaVUpqcGG5bbmhsoZthaaSbrZuXDwCEoiBe"
+    },
+    {
+      "position": 9,
+      "title": "Gîte partagé",
+      "place_id": "ChIJdTWt9Kugi0cR0hdmQ7UfqNE",
+      "data_id": "0x478ba0abf4ad3575:0xd1a81fb5436617d2",
+      "data_cid": "15107359813394634706",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0abf4ad3575%3A0xd1a81fb5436617d2&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0abf4ad3575%3A0xd1a81fb5436617d2&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6792904,
+        "longitude": 5.9027047999999995
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJdTWt9Kugi0cR0hdmQ7UfqNE",
+      "provider_id": "/g/11t5n893b3",
+      "rating": 5,
+      "reviews": 5,
+      "price": "60 $US",
+      "unclaimed_listing": true,
+      "type": "Chambre d'hôtes",
+      "types": [
+        "Chambre d'hôtes"
+      ],
+      "type_id": "bed_and_breakfast",
+      "type_ids": [
+        "bed_and_breakfast"
+      ],
+      "address": "33 Mnt de Tresserve, 73100 Tresserve, France",
+      "phone": "+33 6 65 90 21 54",
+      "user_review": "\"Très bon accueil,\nGite très équipé et moderne.\"",
+      "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=GZU9bvMiNq38gONG9O181A&cb_client=search.gws-prod.gps&w=80&h=92&yaw=96.675606&pitch=0&thumbfov=100",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ectbJXicHc09DsIgGADQ27DJj0YsJsQ4dbKdXFwMpQhfQgsWBL2N1_I2Gi_w3uftco5pT0jKizG5gKkRnsanVVTYhmC9URES1mEihZHsHtMwK_CHqOYAo2wvZzGUE3T3TWP7rhU9a9gR6eGqPZg5y2TUoh229ScuYcQ2JlRlQ5GTYo1eqkrBMd9tOeUoQtZOUvRfbqFIRukXMPU4qg"
+    },
+    {
+      "position": 10,
+      "title": "Havana - La Bonne Étoile",
+      "place_id": "ChIJIQI4DecLi0cRx_0K6dtMd7A",
+      "data_id": "0x478b0be70d380221:0xb0774cdbe90afdc7",
+      "data_cid": "12715716580295245255",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478b0be70d380221%3A0xb0774cdbe90afdc7&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478b0be70d380221%3A0xb0774cdbe90afdc7&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.684991499999995,
+        "longitude": 5.8955362
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJIQI4DecLi0cRx_0K6dtMd7A",
+      "provider_id": "/g/11twt3d9_d",
+      "rating": 5,
+      "reviews": 3,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Appartement de vacances",
+        "Hôtel"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "vacation_appartment",
+        "hotel"
+      ],
+      "address": "45 Bd Jean Charcot, 73100 Tresserve, France",
+      "phone": "+33 6 51 20 64 48",
+      "website": "https://havana-locations.com/la-bonne-etoile/",
+      "user_review": "\"Vue incroyable et appartement de haute qualité !\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMRONKelpW8sGJX4JXR6y72VQIn9tOJi4QgH0Z7=w127-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/XVKtOXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngG-Tv552aUxBuUezuFWHiFRFkVmluFBbomWdZ4u-VaRKY7mEQZW5bbmhkrpthaaSbrZuXDwCTRCBx"
+    },
+    {
+      "position": 11,
+      "title": "La Pierrina",
+      "place_id": "ChIJPwohwiGni0cRHZneu58dcCk",
+      "data_id": "0x478ba721c2210a3f:0x29701d9fbbde991d",
+      "data_cid": "2985919124835571997",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba721c2210a3f%3A0x29701d9fbbde991d&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba721c2210a3f%3A0x29701d9fbbde991d&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6744413,
+        "longitude": 5.9160967
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJPwohwiGni0cRHZneu58dcCk",
+      "provider_id": "/g/11s5mw_qq8",
+      "rating": 4.9,
+      "reviews": 22,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "14 bis Chem. de Sosse Lièvre, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 22 42 73 69",
+      "website": "http://lapierrina.fr/?utm_source=gmb&utm_medium=referral",
+      "user_review": "\"Un appartement 2 pièces très confortable, moderne et très bien équipé.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPQVxkJWUfPEqGqjNWiMeGcAsjQ651-1JV1Z4cU=w166-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/p9iBl3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQEBhWke0VHpoW4FroXpjlF57pm-qe7FicFWhmaqhr6BVmGGWSHGpbbmhmppthaaSbrZuXDwCmKyDH"
+    },
+    {
+      "position": 12,
+      "title": "L’appartement du lac",
+      "place_id": "ChIJyek3kWSni0cRkOrJc83w8TU",
+      "data_id": "0x478ba7649137e9c9:0x35f1f0cd73c9ea90",
+      "data_cid": "3887152718599023248",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba7649137e9c9%3A0x35f1f0cd73c9ea90&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba7649137e9c9%3A0x35f1f0cd73c9ea90&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.656439,
+        "longitude": 5.895601
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJyek3kWSni0cRkOrJc83w8TU",
+      "provider_id": "/g/11k4z8k0c9",
+      "rating": 5,
+      "reviews": 1,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "274 Chem. des Cochets, 73420 Viviers-du-Lac, France",
+      "phone": "+33 7 81 88 33 64",
+      "user_review": "\"L'appartement est fonctionnel, propre et très moderne.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPLKonyP8lyvRKJIjYTQnNfOvcDk6Be5pCMgBhw=w80-h106-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/t1lO4HicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQ4OOdn1cZYJFTWRbk7eWZFRkSmOeX5l-W7JJt5pRqWuDsm-6UUW5bbmGgm2FoYKabrZuXDwC9YCHB"
+    },
+    {
+      "position": 13,
+      "title": "BienHomê Conciergerie",
+      "place_id": "ChIJFdX48jyhi0cRWRe8v61RoMw",
+      "data_id": "0x478ba13cf2f8d515:0xcca051adbfbc1759",
+      "data_cid": "14744874986698970969",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba13cf2f8d515%3A0xcca051adbfbc1759&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba13cf2f8d515%3A0xcca051adbfbc1759&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.7173319,
+        "longitude": 5.917126
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJFdX48jyhi0cRWRe8v61RoMw",
+      "provider_id": "/g/11y1w11jjf",
+      "rating": 5,
+      "reviews": 71,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "Imp. des Cigognes, 73100 Grésy-sur-Aix, France",
+      "phone": "+33 6 26 42 31 05",
+      "website": "https://bienhome-conciergerie.com/",
+      "user_review": "\"Le logement était au top et en parfait état;\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNjfkJKN6PQeUmZQnol90KaIotpq8mZNZO-y1E7=w92-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/8ANp43icuxmbUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngl5WW7eXtZxYQmBqaGxWYl59jaeCd6JlfUlBokRvlF-WvW2noam5bbmmkmwHE2bp5-QCOvyEV"
+    },
+    {
+      "position": 14,
+      "title": "Villa des Rubens",
+      "place_id": "ChIJc52ANfGgi0cRnhsj8iyhFZk",
+      "data_id": "0x478ba0f135809d73:0x9915a12cf2231b9e",
+      "data_cid": "11030900076726918046",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0f135809d73%3A0x9915a12cf2231b9e&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0f135809d73%3A0x9915a12cf2231b9e&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.70718,
+        "longitude": 5.9322266
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJc52ANfGgi0cRnhsj8iyhFZk",
+      "provider_id": "/g/11fmzgnm4p",
+      "rating": 4.9,
+      "reviews": 16,
+      "unclaimed_listing": true,
+      "type": "Appartement avec services",
+      "types": [
+        "Appartement avec services"
+      ],
+      "type_id": "serviced_apartment",
+      "type_ids": [
+        "serviced_apartment"
+      ],
+      "address": "1173 Mnt des Rubens, 73100 Grésy-sur-Aix, France",
+      "phone": "+33 6 22 31 83 50",
+      "user_review": "\"Très joli appartement avec une très jolie vue.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq1hObHeCOUXT7zcNDL3st-F0ekzj_2M6r0Cj-jtkLq-UHDLPwze9oJAIQv_qBvWRdNjnrwFgavO5qDKTIARs-_y8YZPWotqOtW765tH9tF2FiMIPqXryQQ-AsrRkC15TIM1CF_dQ=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/_x5FOnicBcHdboIwGADQJ_pE6tCxZBdY0oCC_ASD84Y4bOjAtbb9BpEX3DP4Np7z_BeId_vhODexWnRKdTf-Z7lplUQucdGqX6e7W2gtWCegvniT2hXZd8RpdjxVm7k9hMnKIrAlH-a-IenaLGkPPQ6JhmMUJvk0c1_tgrgYG70d6_J66KWZWHcZM0-H-yoOSgvN4_3rnNcKdYb1Zu1h5CMj7CeNc30yj6KAwJpyoK5XxalLWXMtPieXEBA-gQGkegFEUESs"
+    },
+    {
+      "position": 15,
+      "title": "HomeTimes Hôtel Azuréa",
+      "place_id": "ChIJjZikvgwKi0cRMKCqlODULPs",
+      "data_id": "0x478b0a0cbea4988d:0xfb2cd4e094aaa030",
+      "data_cid": "18099075063527153712",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478b0a0cbea4988d%3A0xfb2cd4e094aaa030&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478b0a0cbea4988d%3A0xfb2cd4e094aaa030&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6939308,
+        "longitude": 5.8939165
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJjZikvgwKi0cRMKCqlODULPs",
+      "provider_id": "/g/1tdvnmxj",
+      "rating": 3.6,
+      "reviews": 1483,
+      "price": "95 $US",
+      "type": "Résidence hôtelière",
+      "types": [
+        "Résidence hôtelière"
+      ],
+      "type_id": "extended_stay_hotel",
+      "type_ids": [
+        "extended_stay_hotel"
+      ],
+      "address": "159 Av. du Petit Port, 73100 Aix-les-Bains, France",
+      "phone": "+33 4 79 34 67 55",
+      "website": "https://www.residhotel.com/residence/aix-les-bains-azurea/",
+      "description": "Appart'hôtel simple avec espace spa. Studios et appartements sobres dans hôtel simple avec café, salle de sport et espace spa.",
+      "amenities": [
+        "Wi-Fi gratuit"
+      ],
+      "user_review": "\"Chambre avec vue lac au top\nEn plus cette année la clim a été installée 🤗🤗👌\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO7V_vaJiiue-UEirLmDufN0ra0Cplj7FT6YD2n=w138-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/V3THjnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngbx4WX5bolZlZmqob6ppZ5JPrUprmZ1CUaOBckJNl7hZiFulilGdbbmhsoZthaaSbrZuXDwCxkCFO"
+    },
+    {
+      "position": 16,
+      "title": "Le Loft des Moomins",
+      "place_id": "ChIJPTcrvLYLi0cR9cf6kJ1vJd4",
+      "data_id": "0x478b0bb6bc2b373d:0xde256f9d90fac7f5",
+      "data_cid": "16007323173091198965",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478b0bb6bc2b373d%3A0xde256f9d90fac7f5&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478b0bb6bc2b373d%3A0xde256f9d90fac7f5&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.706544199999996,
+        "longitude": 5.835270599999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJPTcrvLYLi0cR9cf6kJ1vJd4",
+      "provider_id": "/g/11xv1crw76",
+      "rating": 5,
+      "reviews": 1,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "12 Chem. de la Chapelle, 73170 Saint-Jean-de-Chevelu, France",
+      "phone": "+33 845 46 61 84"
+    },
+    {
+      "position": 17,
+      "title": "The Lake House",
+      "place_id": "ChIJg2HVHQCni0cRQEuVmqWnL2A",
+      "data_id": "0x478ba7001dd56183:0x602fa7a59a954b40",
+      "data_cid": "6930942681251400512",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba7001dd56183%3A0x602fa7a59a954b40&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba7001dd56183%3A0x602fa7a59a954b40&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6636686,
+        "longitude": 5.8970296
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJg2HVHQCni0cRQEuVmqWnL2A",
+      "provider_id": "/g/11xkvcjpmh",
+      "unclaimed_listing": true,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "83 Chem. du Lac, 73100 Tresserve, France",
+      "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=pHYattT6gkbh6ZAThUKfOQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=146.06404&pitch=0&thumbfov=100",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/KDrYIHicHc1BCsIwEADA3-RmkkoJKgTxJngQoR70ImmaJotpszRro7_xW_5G8QMzn3cgwrwRItPkHM3gCsLTxbxAw31KPjqDkLlNg5grQeExtKOBuEUzJug07i-GqFH-3gZ13TXhfOiPJ2bbm43gRtLZmckG7stPnFLHPWZW9EqyoNdL9jJFV7XiUtWyZghkg5bsv_Rp1pWUX4zDObQ"
+    },
+    {
+      "position": 18,
+      "title": "Gite LaurieRaphaël - Gite Aix-les-Bains",
+      "place_id": "ChIJWXAg8Bmhi0cR5wkuX7fYoZM",
+      "data_id": "0x478ba119f0207059:0x93a1d8b75f2e09e7",
+      "data_cid": "10638022076913289703",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba119f0207059%3A0x93a1d8b75f2e09e7&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba119f0207059%3A0x93a1d8b75f2e09e7&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6961668,
+        "longitude": 5.9550187999999995
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJWXAg8Bmhi0cR5wkuX7fYoZM",
+      "provider_id": "/g/11bwd34_sf",
+      "rating": 4.8,
+      "reviews": 51,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Gîte",
+        "Maison de vacances",
+        "Lodge"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "cottage",
+        "holiday_home",
+        "lodge"
+      ],
+      "address": "34 Rte de Trevignin, 73100 Pugny-Chatenod, France",
+      "phone": "+33 6 32 62 91 75",
+      "website": "https://gite-laurieraphael.com/",
+      "extensions": [
+        {
+          "crowd": [
+            "LGBTQ+ friendly"
+          ]
+        }
+      ],
+      "user_review": "\"gîte très agréable, spacieux et moderne avec une superbe vue sur le lac.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNV0TbTCjf_AfpRgw-pemf2kfDKJLxKLFXM5w3E=w138-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ljJNUXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngF2YQkhTinJUW75hWEJRerluQmptmlJ3m4u3lU-Ht4xbha1pu7GpbbmhsoZthaaSbrZuXDwCriyEw"
+    },
+    {
+      "position": 19,
+      "title": "les Chalets Picaillons",
+      "place_id": "ChIJ-TW0xG0Ki0cRsLF0cBdNZiI",
+      "data_id": "0x478b0a6dc4b435f9:0x22664d177074b1b0",
+      "data_cid": "2478753407980319152",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478b0a6dc4b435f9%3A0x22664d177074b1b0&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478b0a6dc4b435f9%3A0x22664d177074b1b0&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6997603,
+        "longitude": 5.8889184
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ-TW0xG0Ki0cRsLF0cBdNZiI",
+      "provider_id": "/g/11h64fr5yb",
+      "unclaimed_listing": true,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "246 Allée Prom. des Bords du Lac, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 23 76 56 03",
+      "website": "https://www.leschaletspicaillons.com/fr/1435985/les-cabanes-du-lac1",
+      "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=pDIArviTGtzbqR75THtsQg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=22.696905&pitch=0&thumbfov=100",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Fktnp3icHc1RCsIgGADg2_iWusFWCySCoHos9h7Omf7gpumfVqfpWt2m6ALf93lbxJDWjCWMWmMGXQI8tEuLIKnx3jgtAySq_MRyxdDep2GW4DZBzh5GEXbHbczQ7_E13M7Lpj9gOhmihotyoGcUScuoLDXlJ0Y_UhMSKWLFiRVdTZ6yiLqmbdd2vCEBUFnByX-5-iwqzr-cKjnz"
+    },
+    {
+      "position": 20,
+      "title": "Conciergerie C FÉE POUR VOUS- Aix les Bains",
+      "place_id": "ChIJm_MxV8mni0cRze36O_1-ZfA",
+      "data_id": "0x478ba7c95731f39b:0xf0657efd3bfaedcd",
+      "data_cid": "17322391167848607181",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba7c95731f39b%3A0xf0657efd3bfaedcd&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba7c95731f39b%3A0xf0657efd3bfaedcd&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6736182,
+        "longitude": 5.9207664
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJm_MxV8mni0cRze36O_1-ZfA",
+      "provider_id": "/g/11j0hnbnzc",
+      "rating": 5,
+      "reviews": 21,
+      "type": "Conciergerie privée",
+      "types": [
+        "Conciergerie privée",
+        "Service de ménage"
+      ],
+      "type_id": "personal_concierge_service",
+      "type_ids": [
+        "personal_concierge_service",
+        "house_cleaning_service"
+      ],
+      "address": "1659 Rte du Biolay, 73420 Drumettaz-Clarafond, France",
+      "open_state": "Ouvert ⋅ Ferme à 19:30",
+      "hours": "Ouvert ⋅ Ferme à 19:30",
+      "operating_hours": {
+        "vendredi": "08:00–19:30",
+        "samedi": "08:00–19:30",
+        "dimanche": "Fermé",
+        "lundi": "08:00–19:30",
+        "mardi": "08:00–19:30",
+        "mercredi": "08:00–19:30",
+        "jeudi": "08:00–19:30"
+      },
+      "phone": "+33 6 68 02 34 38",
+      "website": "https://www.cfeepourvous.com/",
+      "extensions": [
+        {
+          "from_the_business": [
+            "S'identifie comme géré par une femme"
+          ]
+        },
+        {
+          "service_options": [
+            "Services sur place"
+          ]
+        },
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant",
+            "Places assises accessibles en fauteuil roulant"
+          ]
+        },
+        {
+          "amenities": [
+            "Toilettes non genrées"
+          ]
+        },
+        {
+          "crowd": [
+            "LGBTQ+ friendly",
+            "Safe place pour les transgenres"
+          ]
+        }
+      ],
+      "service_options": {
+        "services_sur_place": true
+      },
+      "user_review": "\"Ils sont très agréables et savent être discrets lorsque je télétravail.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npMV6TDy5PnIkHeXOAoROEw_GqIW5I7G9siXuV8Gzs4BAgyT_vyaNDEnrccHm3A7TcUK0uwddN26LrRHZHi2Kc9K4i52NDGq9wXgf3MuUFJW5cEiZkSPsRJUC6mhV-y2RCfhMWLng=w163-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/p0OqeXicBcFJDoIwAADAF1W0bNbEAwICsmiQLV6MqdASpAUKEvygb_A3zvy-dBw7sZOkF5VXhHPyKidRDpizsWTjCvNWIp0AWAAhGSaiCuvCTEusRb0wr3HL4mzw-GzPd6f3ctXTHSTqYsq2zkcoB4Msyf29PCLLZgPGbisbeoJTfz3Nz2cEtWCI3ZtbQx8jX6lVGFlOj-aCVHI4pcdTrmK7vjXXi4hPqam1NAMLjM2KhnnAyH7eaDKgCIIGMP4HFAFEOQ"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&gl=fr&google_domain=google.fr&hl=fr&ll=%4045.68928146362305%2C5.913509845733643%2C16z&q=location+airbnb&start=40&type=search",
+    "current": "https://serpapi.com/search.json?engine=google_maps&gl=fr&google_domain=google.fr&hl=fr&ll=%4045.68928146362305%2C5.913509845733643%2C16z&q=location+airbnb&start=20&type=search",
+    "previous": "https://serpapi.com/search.json?engine=google_maps&gl=fr&google_domain=google.fr&hl=fr&ll=%4045.68928146362305%2C5.913509845733643%2C16z&q=location+airbnb&start=0&type=search"
+  }
+}

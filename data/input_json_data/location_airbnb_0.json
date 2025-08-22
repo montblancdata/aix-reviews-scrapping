@@ -1,0 +1,755 @@
+{
+  "search_metadata": {
+    "id": "68a87cef40802736e1c54726",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/7cfaebcb7cdbe0f3/68a87cef40802736e1c54726.json",
+    "created_at": "2025-08-22 14:21:35 UTC",
+    "processed_at": "2025-08-22 14:21:35 UTC",
+    "google_maps_url": "https://www.google.fr/maps/search/location+airbnb/@45.68928146362305,5.913509845733643,16z?hl=fr",
+    "raw_html_file": "https://serpapi.com/searches/7cfaebcb7cdbe0f3/68a87cef40802736e1c54726.html",
+    "total_time_taken": 0.81
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "location airbnb",
+    "ll": "@45.68928146362305,5.913509845733643,16z",
+    "google_domain": "google.fr",
+    "hl": "fr",
+    "gl": "fr"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "location airbnb"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "VILLA ASTAY - APPARTEMENT 31",
+      "place_id": "ChIJQdXiX06hi0cRgSbCcVwtCik",
+      "data_id": "0x478ba14e5fe2d541:0x290a2d5c71c22681",
+      "data_cid": "2957225980390942337",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba14e5fe2d541%3A0x290a2d5c71c22681&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba14e5fe2d541%3A0x290a2d5c71c22681&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6851665,
+        "longitude": 5.9171844
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJQdXiX06hi0cRgSbCcVwtCik",
+      "provider_id": "/g/11hz0jvrts",
+      "rating": 4.6,
+      "reviews": 10,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "19 Bd de la Roche du Roi, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 13 79 11 12",
+      "user_review": "\"Superbe appartement, bien situé et rénové.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMztAvAk-D2s2BDy7C5Ft9tRvzQboNReD9rWSZd=w163-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/daVyrnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngW1XiWOaYretiVGzk5FJp7mzqVmJZElRWFZiU7xeU6mJZFB4clWJbbmhmrJthaaSbrZuXDwCkGiE3"
+    },
+    {
+      "position": 2,
+      "title": "Villa Russie St Enogat",
+      "place_id": "ChIJ-4s5omuhi0cR82SPkDpj1KA",
+      "data_id": "0x478ba16ba2398bfb:0xa0d4633a908f64f3",
+      "data_cid": "11588996844315698419",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba16ba2398bfb%3A0xa0d4633a908f64f3&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba16ba2398bfb%3A0xa0d4633a908f64f3&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.685011499999995,
+        "longitude": 5.9166004
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ-4s5omuhi0cR82SPkDpj1KA",
+      "provider_id": "/g/11h2n6zr2x",
+      "rating": 4.9,
+      "reviews": 35,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Complexe d'appartements meublés",
+        "Appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "furnished_apartment_building",
+        "vacation_appartment"
+      ],
+      "address": "2 Bd de la Roche du Roi, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 89 75 31 97",
+      "website": "https://villasaintenogat.com/",
+      "user_review": "\"L'ambiance et l'équipement de l'appartement est complet et très agréable.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPeK7lzbDO5Wc8Hs4itCHDg356JMMxOhQoruuIV=w125-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ao_luXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQkOptnlOV5OJvGp5s4VFsklni7OGSbmxq5uXrW-GfEZhfVFrqGWZbbmhkqpthaaSbrZuXDwCfqCEh"
+    },
+    {
+      "position": 3,
+      "title": "L'AppartHé",
+      "place_id": "ChIJwRSOFwihi0cR49P0zMtlSvc",
+      "data_id": "0x478ba108178e14c1:0xf74a65cbccf4d3e3",
+      "data_cid": "17819166801636152291",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba108178e14c1%3A0xf74a65cbccf4d3e3&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba108178e14c1%3A0xf74a65cbccf4d3e3&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6937856,
+        "longitude": 5.9224027999999995
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJwRSOFwihi0cR49P0zMtlSvc",
+      "provider_id": "/g/11tfctdt09",
+      "rating": 4.9,
+      "reviews": 21,
+      "type": "Maison d'hôtes",
+      "types": [
+        "Maison d'hôtes"
+      ],
+      "type_id": "guest_house",
+      "type_ids": [
+        "guest_house"
+      ],
+      "address": "Mnt des Griattes, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 72 96 00 54",
+      "website": "http://www.apparthe-aix.com/",
+      "user_review": "\"Et le jacuzzi un vrai plus très bien entretenu et relaxant !\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPZ3OG_F1kSJxUYkPE70_AGykCIyrs_oU7K25C2=w138-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/QtD1lHicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQEGXs7x7vZpgd7FURGpkd4GpuEO_oXpnt7FlZVByfH2rubWTqbGRbbmhsoZthaaSbrZuXDwCUBSCS"
+    },
+    {
+      "position": 4,
+      "title": "Le Splendide",
+      "place_id": "ChIJpUB9-Ligi0cR10ktLaNAgdQ",
+      "data_id": "0x478ba0b8f87d40a5:0xd48140a32d2d49d7",
+      "data_cid": "15312591277618186711",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0b8f87d40a5%3A0xd48140a32d2d49d7&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0b8f87d40a5%3A0xd48140a32d2d49d7&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6867995,
+        "longitude": 5.9187769999999995
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJpUB9-Ligi0cR10ktLaNAgdQ",
+      "provider_id": "/g/11g0r7jw5h",
+      "rating": 4.7,
+      "reviews": 46,
+      "type": "Complexe d'appartements meublés",
+      "types": [
+        "Complexe d'appartements meublés"
+      ],
+      "type_id": "furnished_apartment_building",
+      "type_ids": [
+        "furnished_apartment_building"
+      ],
+      "address": "31 Rue Georges 1er, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 08 09 43 13",
+      "website": "http://www.suites-splendide.fr/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant"
+          ]
+        }
+      ],
+      "user_review": "\"La résidence est à 10 mn du centre ville à pied.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npysM3IU3a9EY3zQdzZl0S8Zize_hDtedzI6ZrBO-c62aEWc6UK-4QJn49bDcf0eLcy1pmYRiSQ90pXPKLme-hpI23PMwL-7OMEv864wh-XIJf4CurbhAx2sRRr12qmWRYMB3YAyg=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/8c7IU3icBcFRDoIgGADgE_2pwCzaerD0wdKVtlb60pJIWgoklOkFO0O36ft-X2GtNnPHaQSe1ErVDX8Z3jElLZd2wlTr1NoAM2CcYEUFkXowKY4P-EKjAo_ZdSwbdz8r7yM_i9Dy6xj7ZbfcAvPRJToy_7ABkq0loVXIbi5P2ODptsjv-4y6-rTbJC0HoWOEd2mfwHSbRu-ZT3oBp3h9I6tXV4ngg0yedx56tse8SJe4CIZ60XsIgaAIHiDVH-bqQ40"
+    },
+    {
+      "position": 5,
+      "title": "Carla's Residences",
+      "place_id": "ChIJhz9afbugi0cRw3I7jWUJbcQ",
+      "data_id": "0x478ba0bb7d5a3f87:0xc46d09658d3b72c3",
+      "data_cid": "14153979535661167299",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0bb7d5a3f87%3A0xc46d09658d3b72c3&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0bb7d5a3f87%3A0xc46d09658d3b72c3&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6894877,
+        "longitude": 5.9127803
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJhz9afbugi0cRw3I7jWUJbcQ",
+      "provider_id": "/g/11b73jpcv1",
+      "rating": 5,
+      "reviews": 13,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "4 Av. des Fleurs, 73100 Aix-les-Bains, France",
+      "phone": "+33 7 60 12 64 63",
+      "website": "https://carlaresidences.com/",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noptvGP0oc6pD1kpLdDKmstnMVz_cH26nBZXOFaK-37xr6N7KkLYY16NZHTTOEv7RffiN427ddpfoF3tHD-_JsYhYiX8YAlzIaiy9GoX0tzVKpm5u9N_n3MMCUcrfZ__k_aOcNz=w138-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/jpMjl3icBcFLroIwFADQFVWEKoiJAxUVRYoxaiiThpRPCdDb0KrvsT8X4W485_sRxii9tKxO4EkNUHflU5cDB2lKaSYceqtWGnGNtLXe-mImQZnX4TIF7qrAbtW5CKJeGxk_RsZDx5WbLE32eYSw9ze4xIvaM6W2S7Lwdkt2L-9aVQ2ZOV5RqAr22IQBYidNBW3SBV134zFv_v0DpFMzPiLVz58-YRLH8fbOhypjrGV5wsm4ett4gYTvoBZJ-AG5F0Sg"
+    },
+    {
+      "position": 6,
+      "title": "Villa-Rivalin Location curistes",
+      "place_id": "ChIJ3WYtg7-gi0cRawMoSq_7EJE",
+      "data_id": "0x478ba0bf832d66dd:0x9110fbaf4a28036b",
+      "data_cid": "10453131465408906091",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0bf832d66dd%3A0x9110fbaf4a28036b&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0bf832d66dd%3A0x9110fbaf4a28036b&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.691164,
+        "longitude": 5.921517
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ3WYtg7-gi0cRawMoSq_7EJE",
+      "provider_id": "/g/11r8q9z2l",
+      "rating": 4.8,
+      "reviews": 94,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances",
+        "Villa"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment",
+        "villa"
+      ],
+      "address": "11 Chem. de Bellevue, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 24 81 08 50",
+      "website": "https://www.villa-rivalin.com/",
+      "user_review": "\"Bel appartement, propre, propriétaires sympathiques et serviables.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOmSqyxPmcU0o_2btNbEovI_ZsWzA2DXR84X2Ll=w137-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/QvhUFnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngnxtcWFkRkJscapAfb5RU4pfkml_mGR9VHF7laOQSEWRhEmHkk2NbbmhsrpthaaSbrZuXDwDBXiGY"
+    },
+    {
+      "position": 7,
+      "title": "COSY AIX",
+      "place_id": "ChIJ3_yPkHuhi0cRF8jmTPFmtD4",
+      "data_id": "0x478ba17b908ffcdf:0x3eb466f14ce6c817",
+      "data_cid": "4518349512722794519",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba17b908ffcdf%3A0x3eb466f14ce6c817&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba17b908ffcdf%3A0x3eb466f14ce6c817&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6870224,
+        "longitude": 5.9135588
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ3_yPkHuhi0cRF8jmTPFmtD4",
+      "provider_id": "/g/11h21p87yy",
+      "rating": 4.8,
+      "reviews": 8,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "6 Rue de Chambéry, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 62 66 56 09",
+      "user_review": "\"Fonctionnel, bien situé, très propre et accueil très agréable : parfait!\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPMqbnjgMNjeCsx-WFXYA-5A9ar6246wmwVlS9n=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/QXdJJXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQ4FuYlJeV7uuXlepcXKEb7hYR6ahr6miZWGRmZGJWnlselhNsmWdbbmhkpJthaaSbrZuXDwCo1yES"
+    },
+    {
+      "position": 8,
+      "title": "Astoria Location Meublés Aix Les Bains",
+      "place_id": "ChIJ38J59nahi0cRZ8icBM30a_U",
+      "data_id": "0x478ba176f679c2df:0xf56bf4cd049cc867",
+      "data_cid": "17684497523183241319",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba176f679c2df%3A0xf56bf4cd049cc867&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba176f679c2df%3A0xf56bf4cd049cc867&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.689181,
+        "longitude": 5.9150759
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ38J59nahi0cRZ8icBM30a_U",
+      "provider_id": "/g/11fsp2rk21",
+      "rating": 4.7,
+      "reviews": 7,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "18 Sq. du Temple de Diane, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 88 31 39 12",
+      "website": "http://astoria-meubles-aixlesbains.com/",
+      "user_review": "\"Très bel ancien hôtel transformé en appartements rénovés avec goût.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPQ0JThb6OmLzm0dq8Ufys2GC8wbmpv7w-po-rz=w138-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/jcv2RnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQEGjgFZKRZOaf61OVa5BSaBGaVlls5O5sUZ6UW1BmXq5bkK9bVGVbbmhsoZthaaSbrZuXDwCvsyGz"
+    },
+    {
+      "position": 9,
+      "title": "Studio Gatsby 3***",
+      "place_id": "ChIJZX7ZfNKhi0cRxYbRa2JOJUA",
+      "data_id": "0x478ba1d27cd97e65:0x40254e626bd186c5",
+      "data_cid": "4622186777188337349",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba1d27cd97e65%3A0x40254e626bd186c5&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba1d27cd97e65%3A0x40254e626bd186c5&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6880938,
+        "longitude": 5.9135373
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJZX7ZfNKhi0cRxYbRa2JOJUA",
+      "provider_id": "/g/11j86pkm4f",
+      "rating": 5,
+      "reviews": 3,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "vacation_appartment"
+      ],
+      "address": "3 Pl. du Revard, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 28 40 12 55",
+      "user_review": "\"Un endroit charmant et bien aménagé pour y passer son séjour.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN3uWU5m6zSSIEs5cIp8yNBS2Hmg7ALd6WGnXDG=w137-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Np8Zq3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngZ1waHmqaa1YVHOzpWmya7FlgUennFGzkkZtu7uiTYhbunhfh4m5bbmhsrpthaaSbrZuXDwCViSCY"
+    },
+    {
+      "position": 10,
+      "title": "Meublé Curistes à Aix-les-Bains",
+      "place_id": "ChIJxWo1gbygi0cRCmwTS5n1klY",
+      "data_id": "0x478ba0bc81356ac5:0x5692f5994b136c0a",
+      "data_cid": "6238318472599923722",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0bc81356ac5%3A0x5692f5994b136c0a&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0bc81356ac5%3A0x5692f5994b136c0a&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6898451,
+        "longitude": 5.9132814
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJxWo1gbygi0cRCmwTS5n1klY",
+      "provider_id": "/g/11c5g5zbjb",
+      "rating": 4,
+      "reviews": 4,
+      "type": "Complexe d'appartements meublés",
+      "types": [
+        "Complexe d'appartements meublés"
+      ],
+      "type_id": "furnished_apartment_building",
+      "type_ids": [
+        "furnished_apartment_building"
+      ],
+      "address": "76 Rue du Casino, 73100 Aix-les-Bains, France",
+      "open_state": "Ouvert ⋅ Ferme à 22:00",
+      "hours": "Ouvert ⋅ Ferme à 22:00",
+      "operating_hours": {
+        "vendredi": "08:00–22:00",
+        "samedi": "08:00–22:00",
+        "dimanche": "08:00–22:00",
+        "lundi": "08:00–22:00",
+        "mardi": "08:00–22:00",
+        "mercredi": "08:00–22:00",
+        "jeudi": "08:00–22:00"
+      },
+      "phone": "+33 6 60 53 47 77",
+      "website": "https://sites.google.com/view/locationpourcuristes",
+      "extensions": [
+        {
+          "from_the_business": [
+            "S'identifie comme géré par une femme"
+          ]
+        },
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant"
+          ]
+        },
+        {
+          "parking": [
+            "Parking gratuit"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNCq7jsPszV4OFjFpgEH1sz20j7PbjnZm6B8ZQz=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/G595pnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFng51xonlUcUFwVZuLvluVWkO7qYVhcZWSQZR6QlJUXlWvmZBEVWGVbbmhkpJthaaSbrZuXDwCsGSFE"
+    },
+    {
+      "position": 11,
+      "title": "Aixtase",
+      "place_id": "ChIJ1RgLzL6hi0cR0EKlKcKookQ",
+      "data_id": "0x478ba1becc0b18d5:0x44a2a8c229a542d0",
+      "data_cid": "4945700892682044112",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba1becc0b18d5%3A0x44a2a8c229a542d0&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba1becc0b18d5%3A0x44a2a8c229a542d0&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.695196599999996,
+        "longitude": 5.910226499999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ1RgLzL6hi0cR0EKlKcKookQ",
+      "provider_id": "/g/11k3hjt78v",
+      "rating": 5,
+      "reviews": 52,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Love hotel"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "love_hotel"
+      ],
+      "address": "4 Rue de Tunis, 73100 Aix-les-Bains, France",
+      "phone": "+33 7 69 54 23 59",
+      "website": "http://www.love-room-savoie.fr/",
+      "extensions": [
+        {
+          "crowd": [
+            "LGBTQ+ friendly"
+          ]
+        }
+      ],
+      "user_review": "\"Une très belle love room avec tous le confort et décorer avec goût.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMlPRt7IRHVD-LxR9cU6_SVtGiDoeSWgdnLJ_-u=w138-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Trpnd3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngmxMQVGLuGeQR5qLrUxFkmRxqFh8cVuKe6ZKfGhyenpLn4xWvW2pbbmhsoZthaaSbrZuXDwCghyEp"
+    },
+    {
+      "position": 12,
+      "title": "Appartement T2*** au cœur de la ville",
+      "place_id": "ChIJUazResmhi0cRd-ldezSBXSQ",
+      "data_id": "0x478ba1c97ad1ac51:0x245d81347b5de977",
+      "data_cid": "2620392620607531383",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba1c97ad1ac51%3A0x245d81347b5de977&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba1c97ad1ac51%3A0x245d81347b5de977&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6923199,
+        "longitude": 5.9105875
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJUazResmhi0cRd-ldezSBXSQ",
+      "provider_id": "/g/11vz9g4myk",
+      "unclaimed_listing": true,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "8 Rue de Savoie, 73100 Aix-les-Bains, France",
+      "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=PxRHn24kWrbhULwtfIlC3g&cb_client=search.gws-prod.gps&w=80&h=92&yaw=75.77091&pitch=0&thumbfov=100",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ZVjOCXicHc3BDcIgFADQbbgJtGpqTYgHL5p4MCbGo6GUwo8UCHxLnca53EbjAu993hYx5i1jGZPWOIEuEWbt8iJKakIwTssImaowsqliaJ9j5yW4XZQ-QC_O8-Xg69Xjljp7PRUcjm6_NER1d-VAexRZy6QsNeUnptBTEzMpYsOJFW1NXrKIZk2bhrcViYDKCk7-yRAmUXH-BVW1OZM"
+    },
+    {
+      "position": 13,
+      "title": "Le Bernascon",
+      "place_id": "ChIJ45Wkdrmgi0cR_EdAbs7yaSU",
+      "data_id": "0x478ba0b976a495e3:0x2569f2ce6e4047fc",
+      "data_cid": "2695952820384843772",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0b976a495e3%3A0x2569f2ce6e4047fc&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0b976a495e3%3A0x2569f2ce6e4047fc&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6843235,
+        "longitude": 5.9165551999999995
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ45Wkdrmgi0cR_EdAbs7yaSU",
+      "provider_id": "/g/1tkd_vzz",
+      "rating": 4.7,
+      "reviews": 32,
+      "unclaimed_listing": true,
+      "type": "Services d’information",
+      "types": [
+        "Services d’information",
+        "Agence immobilière"
+      ],
+      "type_id": "information_services",
+      "type_ids": [
+        "information_services",
+        "real_estate_agency"
+      ],
+      "address": "Conseil Syndical, 6 Bd de la Roche du Roi 324, 73100 Aix-les-Bains, France",
+      "open_state": "Ouvert actuellement",
+      "website": "http://lebernascon.fr/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Entrée accessible en fauteuil roulant",
+            "Parking accessible en fauteuil roulant"
+          ]
+        }
+      ],
+      "user_review": "\"De beaux appartements dans un très bel immeuble\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npT_3uTxlZWEMJ0oc8ilKlCTR0ExbQ3H8vGi_WNUx3ttFIEJ8Eu61j5b0pp6W29onJ4a5PXCPjkWvpEi9BIt1Y2U2qO-H8C0huELcsz3HS1djJzfPgpFdTeK5xEzK3zjMBNHElo=w204-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Cx_Yu3icBcFtDoIgAADQE5EI6rStH-Uo0z6sbFZ_WpKJRkCB5bxfh-g2vff7MmOUHloWZ3hQSVnxstXli0phSmEGVD6sSmlANdDWOAyYI1R2xm3W8VNOljGU1K95wsNsC0lXbHDkv2f1OV_tO2zMdE5in7Se3bgFVMrLUSBF7Fzc9BCmzT1_K1IHk7mxj2iPnmsQ-SFkLVlQ3eNoZ1-buL-llZpeszJxO9InuG-Wk1VEuBx9EHQACxC4AyH_YzNDSQ"
+    },
+    {
+      "position": 14,
+      "title": "Le Victor",
+      "place_id": "ChIJ6ZUOL1qhi0cRaigssBQQW6c",
+      "data_id": "0x478ba15a2f0e95e9:0xa75b1014b02c286a",
+      "data_cid": "12059250108255709290",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba15a2f0e95e9%3A0xa75b1014b02c286a&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba15a2f0e95e9%3A0xa75b1014b02c286a&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6812208,
+        "longitude": 5.912124899999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ6ZUOL1qhi0cRaigssBQQW6c",
+      "provider_id": "/g/11gjmbk5m_",
+      "rating": 5,
+      "reviews": 8,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Logement indépendant avec services"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "serviced_accommodation"
+      ],
+      "address": "61 Bis Rue Victor Hugo, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 24 54 18 13",
+      "user_review": "\"Très bien situé en ville mais au calme et non loin du Lac et des stations.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMwx3IZ97ddgLphZMeGxsTdzvbwJPphjd5PQ2jy=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/-7XNJ3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngW15h7BllaZ6Sku5TkBHlm-peURySUlWWVO4VUJCRlWIaEGiUVWlbbmhkpJthaaSbrZuXDwDGdiI2"
+    },
+    {
+      "position": 15,
+      "title": "Albane Sonnet Immobilier & La Petite Conciergerie Aixoise",
+      "place_id": "ChIJAfwCrpmhi0cRojR8u8V17I8",
+      "data_id": "0x478ba199ae02fc01:0x8fec75c5bb7c34a2",
+      "data_cid": "10370793534041896098",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba199ae02fc01%3A0x8fec75c5bb7c34a2&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba199ae02fc01%3A0x8fec75c5bb7c34a2&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6870882,
+        "longitude": 5.9100259
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJAfwCrpmhi0cRojR8u8V17I8",
+      "provider_id": "/g/11f872b6g9",
+      "rating": 4.6,
+      "reviews": 36,
+      "type": "Agence de location d'appartements",
+      "types": [
+        "Agence de location d'appartements"
+      ],
+      "type_id": "apartment_rental_agency",
+      "type_ids": [
+        "apartment_rental_agency"
+      ],
+      "address": "515 Bd Président Wilson, 73100 Aix-les-Bains, France",
+      "open_state": "Ferme bientôt ⋅ 17:00 ⋅ Ouvre à 10:00 lun.",
+      "hours": "Ferme bientôt ⋅ 17:00 ⋅ Ouvre à 10:00 lun.",
+      "operating_hours": {
+        "vendredi": "10:00–12:00, 14:00–17:00",
+        "samedi": "Fermé",
+        "dimanche": "Fermé",
+        "lundi": "10:00–12:00, 14:00–18:00",
+        "mardi": "10:00–12:00, 14:00–18:00",
+        "mercredi": "10:00–12:00, 14:00–18:00",
+        "jeudi": "10:00–12:00, 14:00–18:00"
+      },
+      "phone": "+33 4 79 52 71 63",
+      "website": "https://conciergerie-aixlesbains.fr/",
+      "extensions": [
+        {
+          "from_the_business": [
+            "S'identifie comme géré par une femme"
+          ]
+        },
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant"
+          ]
+        },
+        {
+          "parking": [
+            "Parking payant dans la rue"
+          ]
+        }
+      ],
+      "user_review": "\"Logement très agréable , très propre, fonctionnel et très bien placé !\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMr5TUp8YT3vOYm0UTrl3pvtILgNuogJpq2tbNa=w138-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/v-6Vr3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngW2QaElpgERliXOYfmWsQGlKUY1xQVuLpk-5Xmp_uVVBoVJLkl2hbbmhsoZthaaSbrZuXDwC3kCHp"
+    },
+    {
+      "position": 16,
+      "title": "Studio Clemenceau",
+      "place_id": "ChIJe2mzz6Kgi0cRX-4gAiGujpA",
+      "data_id": "0x478ba0a2cfb3697b:0x908eae210220ee5f",
+      "data_cid": "10416454444947402335",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0a2cfb3697b%3A0x908eae210220ee5f&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0a2cfb3697b%3A0x908eae210220ee5f&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6926206,
+        "longitude": 5.910726599999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJe2mzz6Kgi0cRX-4gAiGujpA",
+      "provider_id": "/g/11j4sv0_79",
+      "rating": 3,
+      "reviews": 2,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "vacation_appartment"
+      ],
+      "address": "25 Pl. Georges Clemenceau, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 23 71 23 83",
+      "website": "http://www.aix-studio.com/",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMuq-llVgT5piqHjewsqWKW9P_qQSl3sc3cDi6b=w138-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/cU9gUXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngW1qom5MTlh5iWpBZ6JGVWl5cGO4dbhkQXxgYnGNcnGyc7JJplmRbbmhsoZthaaSbrZuXDwDIUiH-"
+    },
+    {
+      "position": 17,
+      "title": "Aix - Palace Royal 337",
+      "place_id": "ChIJwWBn_Ligi0cRGhtPNjymzfc",
+      "data_id": "0x478ba0b8fc6760c1:0xf7cda63c364f1b1a",
+      "data_cid": "17856110875133287194",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0b8fc6760c1%3A0xf7cda63c364f1b1a&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0b8fc6760c1%3A0xf7cda63c364f1b1a&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.687189,
+        "longitude": 5.9187636999999995
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJwWBn_Ligi0cRGhtPNjymzfc",
+      "provider_id": "/g/11c6rh0cq4",
+      "rating": 4.1,
+      "reviews": 18,
+      "type": "Hébergement d'intérieur",
+      "types": [
+        "Hébergement d'intérieur"
+      ],
+      "type_id": "indoor_lodging",
+      "type_ids": [
+        "indoor_lodging"
+      ],
+      "address": "33 Rue Georges 1er, 73100 Aix-les-Bains, France",
+      "website": "http://le-studaix-palace.hebergement-enfrance.fr/",
+      "user_review": "\"Magnifique séjour en Airbnb entre Noël et le jour de l'An.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPbRXPv3SGTe7X7_9ESA-M0YrrRpOpztuEW3504=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Q7wUCnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQkBQUEVBmHOwekmoeYR5v6RrsqOtrEFlUFFTgX1BVUuoabmxqYGJbbmhkpJthaaSbrZuXDwCTHCCJ"
+    },
+    {
+      "position": 18,
+      "title": "conciergerie des clefs",
+      "place_id": "ChIJzSc72xihi0cRfZ9cF-DXHs4",
+      "data_id": "0x478ba118db3b27cd:0xce1ed7e0175c9f7d",
+      "data_cid": "14852545978579066749",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba118db3b27cd%3A0xce1ed7e0175c9f7d&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba118db3b27cd%3A0xce1ed7e0175c9f7d&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6937612,
+        "longitude": 5.910181499999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJzSc72xihi0cRfZ9cF-DXHs4",
+      "provider_id": "/g/11fn51l_ss",
+      "rating": 4.5,
+      "reviews": 22,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Conciergerie privée",
+        "Service de nettoyage et d'entretien",
+        "Service de blanchisserie"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "personal_concierge_service",
+        "janitorial_service",
+        "laundry_service"
+      ],
+      "address": "4 Pl. Georges Clemenceau, 73100 Aix-les-Bains, France",
+      "phone": "+33 7 82 99 74 26",
+      "website": "http://www.conciergerie-des-clefs-aix-les-bains.com/",
+      "extensions": [
+        {
+          "service_options": [
+            "Services sur place"
+          ]
+        },
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant"
+          ]
+        }
+      ],
+      "service_options": {
+        "services_sur_place": true
+      },
+      "user_review": "\"Mon studio est entre leur main pour les locations courtes durée.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipN5ka4l-DuiYBYx2JDpVJbjoQ-Oa5Bx2GBOURZZ=w137-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/kdkBvXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngZ5qdaJKj61KaGekUWWHk5VIQ5pWUlR-o659o6lRh5O7kHxoUFWVbbmhsrpthaaSbrZuXDwCYKSC0"
+    },
+    {
+      "position": 19,
+      "title": "Locations meublées appartements aix les bains",
+      "place_id": "ChIJQ3tPohChi0cR2-zkjAbsLQU",
+      "data_id": "0x478ba110a24f7b43:0x52dec068ce4ecdb",
+      "data_cid": "373213857019391195",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba110a24f7b43%3A0x52dec068ce4ecdb&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba110a24f7b43%3A0x52dec068ce4ecdb&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6915847,
+        "longitude": 5.9154013
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJQ3tPohChi0cR2-zkjAbsLQU",
+      "provider_id": "/g/11rssb_t4t",
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances",
+        "Station thermale",
+        "Appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental",
+        "health_spa",
+        "vacation_appartment"
+      ],
+      "address": "Durieux III, 7 Bd des Côtes, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 64 47 75 21",
+      "website": "https://appartementslocationsmeubleesaixlesbains.fr/",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMRSYxDjkw-TXjZumxPUTvt-dakcUnvjWFHeqxx=w80-h106-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/YuFGVnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngGxQcWeGSlV2uGxKRFVWaWxEQGlJWopuSmJ0cmleWFe7mkVpYUWFbbmGgm2FoYKabrZuXDwDTriKx"
+    },
+    {
+      "position": 20,
+      "title": "O2M",
+      "place_id": "ChIJaYgNvJChi0cRccSSGsARQNA",
+      "data_id": "0x478ba190bc0d8869:0xd04011c01a92c471",
+      "data_cid": "15006013475175711857",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba190bc0d8869%3A0xd04011c01a92c471&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba190bc0d8869%3A0xd04011c01a92c471&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.681196,
+        "longitude": 5.910012
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJaYgNvJChi0cRccSSGsARQNA",
+      "provider_id": "/g/11s534lnhw",
+      "rating": 4.5,
+      "reviews": 15,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "3 Rue des Marquisats, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 16 86 04 34",
+      "website": "https://www.o2m-locationsavoie.fr/",
+      "user_review": "\"Propreté irréprochable, l'appartement est neuf avec un superbe jacuzzi.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPb681VBFpin-E_y2b3C_CxzdOyF3txIIVVmxmk=w80-h120-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/EvZNgnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQkGRmYRjm5FaQmafrGl9plGTsHO9cUZXiX-lmXFLh6RkWlluRm21bbmGgm2FoZKCbrZuXDwCf-yFc"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&gl=fr&google_domain=google.fr&hl=fr&ll=%4045.68928146362305%2C5.913509845733643%2C16z&q=location+airbnb&start=20&type=search"
+  }
+}

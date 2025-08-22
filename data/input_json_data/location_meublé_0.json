@@ -1,0 +1,380 @@
+{
+  "search_metadata": {
+    "id": "68a87e327bf2f959e8f5e44e",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/980dcc2b851c8e42/68a87e327bf2f959e8f5e44e.json",
+    "created_at": "2025-08-22 14:26:58 UTC",
+    "processed_at": "2025-08-22 14:26:58 UTC",
+    "google_maps_url": "https://www.google.fr/maps/search/location+meubl%C3%A9/@45.68928146362305,5.913509845733643,16z?hl=fr",
+    "raw_html_file": "https://serpapi.com/searches/980dcc2b851c8e42/68a87e327bf2f959e8f5e44e.html",
+    "total_time_taken": 1.35
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "location meublé",
+    "ll": "@45.68928146362305,5.913509845733643,16z",
+    "google_domain": "google.fr",
+    "hl": "fr",
+    "gl": "fr"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "location meublé"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Résidence Saint Christophe - 2 Pièces pour 3 Personnes 524",
+      "gps_coordinates": {
+        "latitude": 45.68973159790039,
+        "longitude": 5.918661117553711
+      },
+      "provider_id": "/g/11x0jg48nc",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "3 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/cMZwVzINsfmHixEZ6UJcbG2bb9bIuv2nSrVJl91tTFS2c5Bkmfm3nLwXFT7hVmC8a9cDc-u4XEl5YcLrIAg0EFzrHZi9EuMrpBmsBdFfbTfiHpZDLFNDwdClXX6xCQen0PHzpq5u6VqjqgDMFbgOt7BL2rT3cL0=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/QPXOJnicBcFLUoMwAADQE6XQFKg440I-KXRC1SkyyM6kELD5QEgEOanexvf-fntjxvnRcXjv7ZhSjLd2bjVV0rTS7KgSzqjV-uPQolmqLb_MnciGNW2C9zMlJ0hISHL7DeVVV2ce7k2JrpD60V104iDxUqPy2FcifvgMaUKB9eqU-x8U6_yZuSnadNYMYWoLPUZijm6oI2U3ZGOTYHRJllvM6zpY47dWuq_ZNk6-Darpa2JJgQh7MccIQ10eKHafFj-EoPdcD0hwB1L9A8WoS24"
+    },
+    {
+      "position": 2,
+      "title": "Résidence La Maison Sulpice - 2 Pièces pour 4 Personnes 544",
+      "gps_coordinates": {
+        "latitude": 45.69011306762695,
+        "longitude": 5.91362190246582
+      },
+      "provider_id": "/g/11x0jfm18b",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "4 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/lOTGea4adrHc-8qFDbvspyDczxrZXhUsagJ7_7sYBoasgCdM_uhVPP2ugW1Qzy9IHq_0zi0P7-AHpGOdxnQ02Yv5fnerR2A9hNvZ03zD8r8yIQhv8oIZTwq6H1hndxSysSUmBS8HJZcZvbld4_ynwQrY4tT4zLA=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/xPTzdnicBcFtU4MgAADgX8R0xiZ21weX13BXTdNV8sVzQNLlQAFf8JfWv-l5_n6Ftb2597xO7DetUm3HR8M1VdJyaTdU3bxeq8V53bk88gY2TGMK0PCUXCfTu4Suiyaf4mKa9hTWoakOqjHtI3upR_GeZcHYfmzz1UUpHmp__fazEMS4P57ZInM_qKbdl-T6LYgj8ToR_25NkEYuzcWEVErKedjjrZBsKZwpLrdDgfCJUDJdOwZrJ-dcV9CWcH2OH-ZdFAABfQgk-AFS_QNGJkzi"
+    },
+    {
+      "position": 3,
+      "title": "Two bedrooms dining room",
+      "gps_coordinates": {
+        "latitude": 45.694679260253906,
+        "longitude": 5.905895233154297
+      },
+      "provider_id": "/g/11vwqz5vz0",
+      "rating": 4,
+      "reviews": 10,
+      "price": "110 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "4 personne(s) • 2 chambres • 1 salle de bain",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/AHsSQV9cN62emJsZt56t96iQMKzkF2rUJRqZHZvD09K7UUfNpKTZgE17bdRKLK3eX3pIbiIFc893fdVAwrPe7krwbGzjBIQOH4ZRLypWMr_zjzgPx51i9QEmzppCJ2x23i6ifoQwFbYH45UkJZQ4tYZA1n8Ngw=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/xD4Fl3icBcHdVoMgAADgJ3JORB2d04XVzJ_NhuVq3HSODpE5gZDS8aKd3qbv-_vtjVHTnetee7hiUrIr_Z6obqUwVJhVK0dXabnc3DidXvERtWUI6JhPxAShQSHH-8IOCdB1Xn2RlPw8rVER1XVXquKNsK0XNeeq2BU-_fBV1vAsaTfI787HeNYHGg16bp7t5SHDLykk1e6m3vf6014sOyyBxxHejlapxxwswOch7ySek-aUwqAecoKhOZHYE5uSzfdzgIDTwzV0hDM4Qv4D1ypKKg"
+    },
+    {
+      "position": 4,
+      "title": "Appartements Proche du centre",
+      "gps_coordinates": {
+        "latitude": 45.692138671875,
+        "longitude": 5.907959938049316
+      },
+      "provider_id": "/g/11txqmlhhk",
+      "rating": 3,
+      "reviews": 149,
+      "price": "57 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "13 personne(s) • 6 chambres • 10 lits",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/fWTm9d1bXmN_TcYkWCwPXCERhyuNxJuI0FXDX0Lhd0ZvcoW5khcONX6AJU4QfnG34jTJz3xk9I6Ru9b4tTDlU9a4K2HHD4rrqbMnB0PrQcpvXmzfTlryXmKx3OEa2c_ZyxLfx51CnP9b2Q4dPksXk3p8AV6zmg=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/abKBM3icBcHbboIwAADQL0IqFLIu2YMDnaJDMHVUX4yUS7PSlpWihR9d9jc75--XGdMPr67bsXDRKtV29TjUmippamkWVAm318pOblNggaplSUR6w_TCi-iZkWh9YtOY2mTcgQ2JCTiwClwfVBUBZ_SYknCVnGHeyA8ffuNk9i1Hu_A0ohIaHHdndId7b7uNodY_5ad8B5nOaf8gYm5wpyci9tY_ru8evV0ne2hssIxkhkovh1XGB8L9_mX1Fc6ifXsGyHMYBNCRDnek-gdPUUsT"
+    },
+    {
+      "position": 5,
+      "title": "Beautiful renovated T1 lake view",
+      "gps_coordinates": {
+        "latitude": 45.684322357177734,
+        "longitude": 5.916554927825928
+      },
+      "provider_id": "/g/11txqlywzv",
+      "rating": 4.9,
+      "reviews": 22,
+      "price": "120 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "4 personne(s) • 1 salle de bain",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/7C-VG9XpBdNS93TorgFMpnkYR55O1hrHvwjP8nAaDXFcnNiVbXEayckHUfqfwDSN-w7W6Zx_E2ahKWNTMHv6T9DuBQbUosj8ujBmxRxawAMRgG2KBEicyPiUamLVYJflS8Fv0Vcm-A6b7T9uaHPPkx9Ofyiw978=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/-9P3UHicBcFZUoMwAADQE6VUZIszfoBAGSsU2Ur96YQUCFuCbAk3rbfxvb8nWZZxfpOkniiHmrG6L9e5nDCjS0mXA2aDNE5M7JL-AbITzEfrEcTwNWFT7foj7W6Rql5eyORtvA0NaiI7dzENmqzIHbTjzkur34rbcQC4ftV-xN2RETlfg8T3Ni2B9mp9FymbW2NtrUFEAnHTj-qTfLacBu9hk6LhK7t9Vn1suNsxwwMwtUJP4Iq8MOwEvFR7w6FuvHMVyoAoRwVQ0AHK_gGInktD"
+    },
+    {
+      "position": 6,
+      "title": "Beau-Site 46",
+      "gps_coordinates": {
+        "latitude": 45.68666458129883,
+        "longitude": 5.91697883605957
+      },
+      "provider_id": "/g/11xmgjzs9t",
+      "rating": 4.45,
+      "reviews": 31,
+      "price": "92 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "3 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/YzeGvZncrScCZr8Tw0T-2B5CpqTf9IGUjkQjRDXhywD-D3GstbRFYgGp1OswaAAXfD92EOY4OVVzlCllBGKP3-ajyvNdpnUB_FoVL-cjkQQ1dccwhGOLkIvp2RRuRn4-IHWjNKwA4HE-o6T1udzdlSwRT8ykEA=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ys_HSXicDczbboIwGADgJ_pFsBhZsgtOVqKRWSsTbxYtSANd23Hq4EWXvc32PcD3-8P7XncvliW4u6iUqkQ5dGXLlOxL2S-Y-rR0q74nK59LPN4ka88svLUbapYUnMAN9Rd9egm-1M2pJtGVTyaCaIW7_kG2eYW1nXbm7vvXZ-Q5cZqjNMtmEQoR4P3bCu71NB4LLS_Bx1ZlB2D_zckuGDMcp4cmGbVDyEAkgmT3Xh_3xke7GNSa2kMxF-JsCN1MTey_GtdzgKMlAgkNSPUHTbRKzQ"
+    },
+    {
+      "position": 7,
+      "title": "Résidence Villa Neree - 3 Pièces pour 5 Personnes 924",
+      "gps_coordinates": {
+        "latitude": 45.69234085083008,
+        "longitude": 5.908998012542725
+      },
+      "provider_id": "/g/11lm_nv_br",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "5 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/ScDk0TvsRPbtCJxR3gHYP90yaz_JfXl7tJdHG9NuQrvO5vDegJuYap6NzSH6Q3CHlS_aQCMp0oPzHe4NsOplseIaBUX0RD3cu7Yt7HUyKd4kmdUA1VCxaHcwBgJOgRhUtkjgJqY-y-qPo3ewktaw6-To-NGaww=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/Ghp1lHicBcHbboMgAADQL6KySTUu2cOqSSnLvNalPjUMKWZSoYKi_uiyv-k5_3-dtdq8eZ7s0E4oJSSfDB-ZGiwf7I6pu6dHtaxexZIenmdT5j82JkvpC9zkEVzpdiW3iwwtafExSqdinLP9nHBBpobqIN0qHBR-jGV1pUX8paHKN8xRajItDT_RQ32BZeKzKWxsiOv1s0X9va0_Xr7jhWLmDoJkouxq2_8K8mjACh658rnrLXUBOCuQHqlz724fvYIOQQQG0INBPQGSL0vt"
+    },
+    {
+      "position": 8,
+      "title": "Résidence Le Clos St Louis - 2 Pièces pour 4 Personnes 424",
+      "gps_coordinates": {
+        "latitude": 45.68354034423828,
+        "longitude": 5.911732196807861
+      },
+      "provider_id": "/g/11m62q2bs4",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "4 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/Ha553GpE0_MGjPukAd1WN8Vtdosk8VYJWoaHYC7GXegH9qQsscMBbRQBAkjjnJix6HqMQMI33g5hGivKEOYUw3-JTB5cu9jFEl0SEioaArXsCD6pigw8Z5NW9qB7vv0KO0megefZo98L5mLe73ckUo8e4zEHtlg=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/-4oXGHicBcHRVoIwGADgJ5pQMIHO6QJ0QSgapSLedGiuAYP9wAZoT1pv0_f9_ZZad-rJMJoSLzgAb9io2EBBaib1gkJrdAPc7kZUYGyFHTE_k7B-G4V_fch27klfQQn3lMcZFFG-csIz45HXp0rRJPh6TwNf1LWMq9sy6pM0ebUsjsuwmjZknx9nC8WHANPRq19IY36QCgp_OKvVetlVfHYveJd5feBMk7nZmy3j7PsCnrvF7ZY5FhVHcJn9QyLd8OcZe4-otE0bSSSQhH8dZEo6"
+    },
+    {
+      "position": 9,
+      "title": "Résidence Le Saint Charles B - 2 Pièces pour 4 Personnes 514",
+      "gps_coordinates": {
+        "latitude": 45.69057846069336,
+        "longitude": 5.9191670417785645
+      },
+      "provider_id": "/g/11x0jjqxf0",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "4 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/6cjmVWPQPGMaB1COw3sougKVV5OWskT4jYRKl-NHJ90ZDWt0N6NWRJz13c5PoLFwQauSbWnHxP7P8KOStXKonmE5oPuAgOVO_U8D8inhgnpNDDqkp9sNhwTt_EvFFTxx8kwEBvwl5x3d0QzyfZn0cInrR9_l__c=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/gnDUXnicBcHRVoIwGADgJ5pgMIPO6UIDMqltIEF5w7FFWwL_iA2HPmm9Td_39yuNGfSd43QSL4RSomsm3YxcgWnALLjqnWFU88VZ8VNfVixjjy_HzfKBWk-rSaRliWml28I_vedph8h2F7qHqDIuWZEq312XHsdMPSc2O077jwq2M7tlQUr35i1V0MdYsWktaEnr1yAKvkEKGEgU_bRDqIm0hanjc5IU8xy0Nt6cbYdn79PNrpevA7j8CcY8rLu65vcWhzdI-q6PALUI1D9s6Uvw"
+    },
+    {
+      "position": 10,
+      "title": "Studio refait à neuf en hypercentre avec balcon",
+      "gps_coordinates": {
+        "latitude": 45.69047927856445,
+        "longitude": 5.9152398109436035
+      },
+      "provider_id": "/g/11v5rg_93w",
+      "rating": 4.95,
+      "reviews": 8,
+      "price": "93 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/RMPm3FujLhP8jbrBvB4_7jl_X1JDFFDkbRrHKuzCdeQbtRHpAKfnRjcKEV3Zb-u_nzc3KL3lvpPzVdsxvlOg3MVvbBVj5LFw78u5RMb8blmXR1-0b4dlnsOZS5J39G4_wD6rbONwN7bCZX766kBiZgH_emytJg=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/oqCLdHicBcHbboIwGADgJ6roWg4u2cUQGeEgrEsI4YbkB4RBaUlpQXnRZW_j9_3_9UrNy7thsJ4cOiE61uqllbXgquXqUIvJmKV4PA2aZBP29RD3mTOAdFeXVPbAquIUer7vjUBlEOn90rTfoGgwf0Z3Toc6uua4BKQrvtc4ijFb52zPm-WxsrTDSb6Cmw9m7G-2o02agANsKugJHYE0jC9p-WOG-PxFqs2zJKS37WbDpSxsyxrd37ILqnZ6qrD72MzzG-rJkSCORsTFC28_Swk"
+    },
+    {
+      "position": 11,
+      "title": "Studio climatisé-hypercentre Aix les bains classé 2⭐ idéal curiste",
+      "gps_coordinates": {
+        "latitude": 45.685691833496094,
+        "longitude": 5.913020133972168
+      },
+      "provider_id": "/g/11ssgc_9w6",
+      "rating": 4.2,
+      "reviews": 52,
+      "price": "59 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh4.googleusercontent.com/proxy/nYnnIzlyDzmMAhS3bTx8pq_xcbz8M-54sk126dSVCQ2CCzK4SPWoocPODud4Q47Se9g1vOGh_dwldMBRUExu2YsYy4VZ4ZIVjdtijlpSPMAJLjv3e2HdFQRHTyzTryJAxCcIQetv6S85-F274XNkNBR3GT26sg=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/MU1sOnicBcHhcoIgAADgJyIXotnu9sNslW2WinOzP90FnEwJnKCJL7rb2-z7_n65MZ1-dhzB0aJWqhZs0KwnShomzYKou9P1arKOrKSMZ2G38z0JOXZvxRR0P9eJ3OYgAR7S7RL6FJdRBqNofkM4_VSKpOftQFGGVpit6-V43vMrfQiabPKP12mAla4sKi_oEpcNNd-N6HCahMf3ZnQZPNBdlh8KOxe9PYZTROKMmdHHgQd2cIW-Tu1pk7v7Avq6fnl4awg4ekJAghZI9Q95bEp-"
+    },
+    {
+      "position": 12,
+      "title": "Coup de coeur pour ce joli logement !",
+      "gps_coordinates": {
+        "latitude": 45.68656539916992,
+        "longitude": 5.908443927764893
+      },
+      "provider_id": "/g/11xkgn4d4l",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 salle de bain",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/Uwk4wXN-SVMY1uhSKjaonHl7zVTVt8vFZm-wm1BC5NdqiXC4TX9E6TVUYwafpXy4tWP-vLuyGjA47l7ygFf9Wr67aP5zIFJIIdxtJGb7996Ij9oAUj-e5zUMLlT91zTUPQL0pbW3Es4zmW9HCJV8gFS4jgye6g=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/YEQgC3icBcHhcoIgAADgJyJzQ4zd7UfzsnTWuRPQ9s-KcITiFCN50W5vs-_7ezbG9OOb56kGLYTWQvFp5MNZd4Z3ZnHWrdcP-jF71N6grQ6gYPujPzXFp6x1t1OhY4SZ1T3-boFt_Y8oOFx-f6oIkgpvEGH0aOtrX83QlDm4Z9O8lWsYqnAW8RWXAwrrPHBJnCbJ5WHS7SnEGCUS6zWVgAeO7jNFsO8Izb-yZX8qXzcjdG2Jd1HKViIuoBQzR-LdBvgFNHAJQQduoNP_HBBJ2g"
+    },
+    {
+      "position": 13,
+      "title": "L'AppartHé",
+      "gps_coordinates": {
+        "latitude": 45.69389724731445,
+        "longitude": 5.922506809234619
+      },
+      "provider_id": "/g/11v_b46tbw",
+      "rating": 4.25,
+      "reviews": 12,
+      "price": "196 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "4 personne(s) • 2 chambres • 3 lits",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/M92NeEtroqxg3NChwsp_ZDJUKDVrD2DS74CaGR6dtmkRMWkSprvokOGIQmBIxMjznZoafkC_jM6gzT32v3ITG5hX5RRAbaa-1wll6n5oDlkktw-2-qcz3dMFGv12WX-2gc3fhD_waPTQM-8KF1rvJXfkF_YkCA=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/GM-30XicBcHRToMwFADQL-qQFtCZ-DCpELZ0OoYO90IqA5q19LJSKfKjxr_xnL9fYe0wPnqeEmTVAXSq-R4bU4O2jbarGnpvMDD_eGyN982LNXCbO7KPhRuH6ky37zv6YSimx_sg5mkeXWwvc3aSx8FMIF_T7NA_ZzO7LvoMvJVxdWVRtxQETyQr0lCUYZ5vvjhHvlMq0iFQJaV1CKNbvZALS9LJx6cS4a4mraCV42_FgaGHXeKbaVu2Mqk-Zbx5cuEaIxHcBUgjiTT8A28iSrQ"
+    },
+    {
+      "position": 14,
+      "title": "Residence L'albizia - 2 Pièces pour 2 Personnes 754",
+      "gps_coordinates": {
+        "latitude": 45.69230270385742,
+        "longitude": 5.91285514831543
+      },
+      "provider_id": "/g/11vyj1qpls",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/BMr9ZpAARkP1zMR05x_cxjH_ZIQVrE-kajtcagU5AU7LMrUCD-hH2BAo59ZDgq1JjxnbF7b_35wDTYQJowsgKyNSi3Ssxz9rtU0wRSIZnYkvOq4Ib0DOzv41306bJvaolboqhmkrvTxiySuxjY9NR-Oxxzddtw=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/8o8tyHicBcFRboIwAADQE1WKUE2X7APHjLAhE2QJ_BCKpJViC6VC4aKLt9l7rz-mdT--WVbHnA2VknbNc2xULYVuhN7U8mH1SprFOkQKF73nJfzHXqMEIlPWpj2VRXD5VZ-AV62uK5ohL9t_Ryr78AE7bQ-eRLjw6WCHrRHkuCelg2b_ml9COY_0azmndycdzYqVzuCcpEEhcj7FgxsQ6Mfr5NoO3JFwqmRH5MAeXE1Xc1_Sp2lzfE5AbMx6u-n5fUZ4C5gLXSAAB0L-A1NOTHM"
+    },
+    {
+      "position": 15,
+      "title": "Résidence Le Clos Des Merisiers - 2 Pièces pour 3 Personnes 494",
+      "gps_coordinates": {
+        "latitude": 45.684791564941406,
+        "longitude": 5.9078474044799805
+      },
+      "provider_id": "/g/11whwv384x",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "3 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/tJo1uQlBCUWHBJvyKlURseBLt_HwpmTyhZDVdwy7u-uqF4shlTMh13lgPqnhb-oViqjQRB1lF9x_jNO1XiOMhB8gc1_iRu6cmsUwgRkiT2pgsKoxiWQo8vBGADmuko-rGStEFn-apji7v7LV2RbL8anUrKnqUQ=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/LBl6N3icBcHdboIwGADQJ6qsjAku2cU6h0ZwDkbReEOUkbZQ-gFt-XlSs7fZOX8PbkynXx1H8vWKATBZWV0NJShTKbMqoXW6AebFMQfANpHkg5735DAukaSprkhsiv3UtdnCr9v8d1p8i2wfeprL7Mjxs2TfveJ3BLno6yQlWIabuai_TvgiTkdOAlbiQqR2XbaaTixtROZ2TEcwi3MCwUh279vWNoCG3Y_5DBW6dbXwRz_O3fQeBzdFh0j1NHmbXjYu4t6ThxRqkIJ_SnZNSw"
+    },
+    {
+      "position": 16,
+      "title": "Studio 4* dans ancien Palace Royal a Aix-Les-Bains",
+      "gps_coordinates": {
+        "latitude": 45.685638427734375,
+        "longitude": 5.915949821472168
+      },
+      "provider_id": "/g/11kj5p6g1k",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 lit",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/uugh3ifiVAKutVsZgbVRwVgW4OmHHwSe19vXsw66qqbZkQthm0y7x0FgHJiqZ51eDZmLcztMP7mC1daBHt1WfQ9rY4ZfPBBiGeBiMUPWr-gaQ-tV_ZWwzBzvxumOsXH79DGni7nPADrO3NEdnNaop-K-G93UPHM=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/CNNZQXicBcHhcoIgAADgJyJ1Wh6724-cm9yaievCxp-dGQJXgAqm-aTb2-z7_n6Fc5199rybCFfcGH5jo2VDY7Rj2q0ao7xuMPPDG0cuQtlKst2NjljKz-RrIryKCoXQdGABvJ_stNn0_ZleSyeU_4hn_52jD9nTdcBSqj6bxeU4Vq_BpU6QC6q2hMN3RFucJDJjicyPuBoAr0vgyA-tpiVZ7vOoCntCMUwzLWONt-lQhPu3i97XpgM7kMHwiFH-Mq3hExCRHwENrkCbf06FS_8"
+    },
+    {
+      "position": 17,
+      "title": "MRTN APARTMENTS Studio  Suites - Aix-les-Bains, hypercentre",
+      "gps_coordinates": {
+        "latitude": 45.691650390625,
+        "longitude": 5.912220001220703
+      },
+      "provider_id": "/g/11vt6b_z15",
+      "rating": 4.4,
+      "reviews": 104,
+      "price": "111 $US",
+      "type": "Maison",
+      "types": [
+        "Maison"
+      ],
+      "description": "4 personne(s) • 4 chambres • 2 lits",
+      "thumbnail": "https://lh5.googleusercontent.com/proxy/v5WWMZmB3z205J_aoYe9NdKxB9sUpt85BNNRkIAMyGCAAGu1_JTWlhgRQZ8j181kDaBv5HNDNC6Oknr-k2aVlHBOyR0M8l3NSoHrUhM5A-Yb7DD5I15B8szfNs13Faq-R3miWCNBzlTsVnsChzNRJ7nNItHV_g=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/arXHMnicBcHRToMwFADQL-qgsLpi4gOFOMBwF-sG2V4ITqTa0iLt5uBHF__Gc_7uwrnRPnqeEmTVG9Or7mK76Wy067Rbnc3gjZO5zd6V1HV5Gli4BD4pmtYcuwg-Xm4ssofRUcIAuMzjct4mcby94KbY10r0_PVEvzHFMm3ZlWSQQvKwk3pCMmgrlbHdzP2SqhDeTDYdRElidHzfpCnJMWHULp9gcfjc_iAeDl91AmxRe1tpm4gFeLHRkLusavqnXxIFSKz9NdJIIm3-AT-PSII"
+    },
+    {
+      "position": 18,
+      "title": "ASTORIA CITY",
+      "gps_coordinates": {
+        "latitude": 45.68919372558594,
+        "longitude": 5.915229797363281
+      },
+      "provider_id": "/g/11vzvjy1c7",
+      "rating": 4,
+      "reviews": 4,
+      "price": "144 $US",
+      "type": "Gîte",
+      "types": [
+        "Gîte"
+      ],
+      "description": "3 personne(s) • 1 chambre • 3 lits",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/goVAjd4veXZWXqgCC-zdfEFWcnR7LVZaGllWzdkuUHG3WetUc8GLPPFiYt_-DzF4Dtn-NveNU5XFevob7Ge8SUWfA285G64CEKe7XLg1o6KEmKthW3efTuJoBZT7gl8SZrqLC9AY-hs7a9QUB87xIR1gJ31JRLg=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/krNEw3icBcHhcoIgAADgJyJnauDu9sNM2ZTrmkWYf7pShC2CUnTlk25vs-_7-5XW3vpXx1HSmwljhOJDz7vaaMu1ndXm6tw683g6wuyj78YfeVmx8i7iGExNm6Ss1gUk--qElWJTcxnoO_YYt7RGmGw26dfBHsFqSv2V1WA98jUNypSP5gwxR1vK2miOArzw4yTnsCTCNYs8ueZWMo-3uyEzy2oHhULbqruTOIwOQPbwFH7SJYKPj8IVmedmBRFvP0E4B9J_8YEGF6DNP2u6SZs"
+    },
+    {
+      "position": 19,
+      "title": "T1 moderne, cosy au centre-ville d'Aix-les-Bains, proche des thermes et commerces! - FR-1-555-33",
+      "gps_coordinates": {
+        "latitude": 45.6880989074707,
+        "longitude": 5.913537502288818
+      },
+      "provider_id": "/g/11v59ch4bg",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 1 chambre • 1 salle de bain",
+      "thumbnail": "https://lh3.googleusercontent.com/proxy/g5sD8G2eWdis1PR7-aAZ5ryCgWVBDZyBVpgyiZHLcwnjupThPl7cm21ALHM_sLRuYdytQtgWcoKJpZc5ntViZBFjenG-IdEvylh7OtZYCGyKZI4W2z2X6bYH2fKtwF2p1mj7zKBgXUh11lz7pEDoh1lRP-x-Mw=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/MMxr9HicBcHhUoMgAADgJ2IGaVR3_Zhz06W7zCud_OkKCTQETjCHL9rtbfq-659wztjHIJDidsO15pLNlk1UK8eU21A9BmbSFx_wyCb3KWJN11tYVhh8bkk0-R1v6jghPq4N9z3JCrqoYTZvopSYjghui-z0YYtqbjvvXh1vqM6fDaGRcnVP4sPAVAqO3f7XS4FfHGl3qc_JMWzQis53X22GvnO3HJCB44DXPObndwGhXLHZJ1pAWZXgAk7L0xI9ICDCmxAo8AOU_geei0uI"
+    },
+    {
+      "position": 20,
+      "title": "Résidence Le Chateau Durieux 1 - 2 Pièces pour 2 Personnes 864",
+      "gps_coordinates": {
+        "latitude": 45.69108581542969,
+        "longitude": 5.915500164031982
+      },
+      "provider_id": "/g/11x1d906hx",
+      "rating": 1.5,
+      "reviews": 1,
+      "price": "155 $US",
+      "type": "Appartement",
+      "types": [
+        "Appartement"
+      ],
+      "description": "2 personne(s) • 7 nuits minimum",
+      "thumbnail": "https://lh6.googleusercontent.com/proxy/CgYcR028c6CBwl0dI7HlVqJ9LbjlP19kA4NtwyLqj41cwiYpZhw83tbnfsDKb0hGP3xXTI5UXSnNAofXBdCoNd6X-Aqz5Ey_Yzy8UuPSmmoKgPEGnYzkO6YvsRB6McL7r-Dwpn02eap1NsNYfedn7l_bIt0s3g=w592-h404-n-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/U5GJJXicBcHbToMwAADQL-oodzDxAdgycVjJ5gz1ZZECraO0QDs7-FGzv_Gcxx_TelRPlsVZsKFSUt7eVDsTKXQr9IbIwRpneV-sjGJyhE5Egiw1HDZ5-MI_p9e4qK-8tOM-8ZA2SzFdPZuYHzx-MRO5uhad2h5qyPale68-cv9cnQRKZFelTSZRE1QgmVZ_t1zwukTnW3kaBnmg5W4v8Nq_B_hXHdPgjRThDLZmFNBpv0cbKYS7thEhv9S5hsqlz8aPHcA86AEBeiDkPzOsS0I"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&gl=fr&google_domain=google.fr&hl=fr&ll=%4045.68928146362305%2C5.913509845733643%2C16z&q=location+meubl%C3%A9&start=20&type=search"
+  }
+}

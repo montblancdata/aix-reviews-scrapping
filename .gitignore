@@ -1,0 +1,11 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+
+# --- OS files ---
+.DS_Store
+data/.DS_Store

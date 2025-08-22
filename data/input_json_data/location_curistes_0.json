@@ -1,0 +1,821 @@
+{
+  "search_metadata": {
+    "id": "68a87d332f47f8592873f548",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/61b272e47a291dc3/68a87d332f47f8592873f548.json",
+    "created_at": "2025-08-22 14:22:43 UTC",
+    "processed_at": "2025-08-22 14:22:43 UTC",
+    "google_maps_url": "https://www.google.fr/maps/search/location+curistes/@45.68928146362305,5.913509845733643,16z?hl=fr",
+    "raw_html_file": "https://serpapi.com/searches/61b272e47a291dc3/68a87d332f47f8592873f548.html",
+    "total_time_taken": 1.43
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "location curistes",
+    "ll": "@45.68928146362305,5.913509845733643,16z",
+    "google_domain": "google.fr",
+    "hl": "fr",
+    "gl": "fr"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "location curistes"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Location curiste Aix-les-Bains - La Villanelle",
+      "place_id": "ChIJ3xgfZCuhi0cRVMFxszhyDF4",
+      "data_id": "0x478ba12b641f18df:0x5e0c7238b371c154",
+      "data_cid": "6776917127140065620",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba12b641f18df%3A0x5e0c7238b371c154&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba12b641f18df%3A0x5e0c7238b371c154&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.692946199999994,
+        "longitude": 5.9156507
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ3xgfZCuhi0cRVMFxszhyDF4",
+      "provider_id": "/g/11j1khvrtn",
+      "rating": 4.7,
+      "reviews": 6,
+      "type": "Hébergement d'intérieur",
+      "types": [
+        "Hébergement d'intérieur"
+      ],
+      "type_id": "indoor_lodging",
+      "type_ids": [
+        "indoor_lodging"
+      ],
+      "address": "2 Bd des Anglais, 73100 Aix-les-Bains, France",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMgSDGzgw2tZPJstjQq-559btUcYRImDPg1qvEX=w80-h106-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/yqc2_HicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngmx7s4l6VXm5UEhXgVVySFVioa2pqmVQSmhwZ5JnrEpBuWFjmGmFbbmGgm2FoYKabrZuXDwC0AyF8"
+    },
+    {
+      "position": 2,
+      "title": "Jardins de bellevue - Location curistes",
+      "place_id": "ChIJ3wqrjtYyaKARdd5VGn4DtSQ",
+      "data_id": "0xa06832d68eab0adf:0x24b5037e1a55de75",
+      "data_cid": "2645024196292632181",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0xa06832d68eab0adf%3A0x24b5037e1a55de75&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0xa06832d68eab0adf%3A0x24b5037e1a55de75&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.691651199999995,
+        "longitude": 5.9197584
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ3wqrjtYyaKARdd5VGn4DtSQ",
+      "provider_id": "/g/11sb5y_8rm",
+      "rating": 5,
+      "reviews": 1,
+      "type": "Agence de location d'appartements",
+      "types": [
+        "Agence de location d'appartements",
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "apartment_rental_agency",
+      "type_ids": [
+        "apartment_rental_agency",
+        "holiday_apartment_rental"
+      ],
+      "address": "2 Chem. de la Retourde, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 82 52 77 04",
+      "website": "https://www.lescuristes.fr/location-appartement-neuf-de-2-pieces-avec-parking,-150m-des-thermes,-classe-3-etoiles-aix-les-bains---station-des-thermes-chevalley_10302",
+      "extensions": [
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant",
+            "Places assises accessibles en fauteuil roulant",
+            "Toilettes accessibles en fauteuil roulant"
+          ]
+        },
+        {
+          "amenities": [
+            "Ascenseur",
+            "Espace extérieur",
+            "Lave-linge/Sèche-linge dans la chambre"
+          ]
+        },
+        {
+          "parking": [
+            "Parking couvert gratuit",
+            "Parking gratuit",
+            "Parking gratuit dans la rue",
+            "Parking sur place"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNmz_hoq6lxBKnEmBD9XSRSQ3FH3KZ9yq7bbnB_=w163-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/1VrPd3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngl1sVn5FfaJZT4eSd55rr5GIZERwUHGjs5mHsHWVZWWielJTnFG9bbmhmrJthaaSbrZuXDwCxlSFF"
+    },
+    {
+      "position": 3,
+      "title": "LOCATION AIX LES BAINS CURE et VACANCES",
+      "place_id": "ChIJdwBByP2hi0cRxMJ2rIyWnVE",
+      "data_id": "0x478ba1fdc8410077:0x519d968cac76c2c4",
+      "data_cid": "5881022219348787908",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba1fdc8410077%3A0x519d968cac76c2c4&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba1fdc8410077%3A0x519d968cac76c2c4&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.696279999999994,
+        "longitude": 5.9129475
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJdwBByP2hi0cRxMJ2rIyWnVE",
+      "provider_id": "/g/11h4gzc472",
+      "rating": 5,
+      "reviews": 4,
+      "type": "Logement meublé",
+      "types": [
+        "Logement meublé"
+      ],
+      "type_id": "self_catering_accommodation",
+      "type_ids": [
+        "self_catering_accommodation"
+      ],
+      "address": "12 Rue des Fontaines, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 58 82 35 76",
+      "website": "https://www.lescuristes.fr/location-magnifique-appartement---parking-prive--calme,-spacieux,-tout-equipe---ideal-pour-les-cures-et-les-ballades-aix-les-bains---station-des-thermes-chevalley_16317",
+      "user_review": "\"Très bon site pour trouver une location\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqkEr9E2hBypcy6EP8wdX5AuhvZmHlwl4GZMPi6c5mlFzdamShm70uHXco9b_nDfP2rhC_LiZHXybZ29_6I_F9BKjxRzc62tR2dVOrV4qX99nXlznV2bT3hcEO0b7nNxqlY2nKYPw=w163-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/JjGDMnicBcFbcoIwFADQFUVswNh0ph8-sDi2ldEOE_lhSkCumtwACUXYYNfgbjzn8Q_O1fbN8xT4k8qYSpWdLVtp0JXoJtJor6otkZZYb7HiEGBzC1seUlgOtRxYGL_2hZgtOvhLdaR6FXykX_GFyZlWm7H41UfQ82kXCWl4nuH6HNMWVtnnJY3EkKeUZ2ybbfhyd70fRsmoO9Ai2bdJ0AjOUagRE5r_-CDD_TSf4_e9USeKu1Pcv_cvzCfAKbkRNE-atkXB"
+    },
+    {
+      "position": 4,
+      "title": "Meublés curistes classés",
+      "place_id": "ChIJ9Typu7ygi0cR4KpG9QfuQ-4",
+      "data_id": "0x478ba0bcbba93cf5:0xee43ee07f546aae0",
+      "data_cid": "17168827922413693664",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0bcbba93cf5%3A0xee43ee07f546aae0&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0bcbba93cf5%3A0xee43ee07f546aae0&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6902596,
+        "longitude": 5.9114558
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ9Typu7ygi0cR4KpG9QfuQ-4",
+      "provider_id": "/g/1hc1rrrzj",
+      "rating": 4.4,
+      "reviews": 7,
+      "type": "Agence de location de maisons de vacances",
+      "types": [
+        "Agence de location de maisons de vacances",
+        "Logement meublé"
+      ],
+      "type_id": "vacation_home_rental_agency",
+      "type_ids": [
+        "vacation_home_rental_agency",
+        "self_catering_accommodation"
+      ],
+      "address": "20 Rue du Temple, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 82 59 20 87",
+      "website": "https://location-cure-aix-les-bains.com/",
+      "extensions": [
+        {
+          "payments": [
+            "Cartes de crédit"
+          ]
+        }
+      ],
+      "user_review": "\"Très belle location pour curiste.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMS7fDfgb3p7nXjyi9Mr2bOYHrH68ZWErrzqGff=w80-h106-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/4RvbIXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngG2ye5pKWnmRcYJ4XkVWZaelbZJTkH-lR5GFmERXuWlRUVeielmZbbmGgm2FoYKabrZuXDwCunCGO"
+    },
+    {
+      "position": 5,
+      "title": "Meublé Curistes à Aix-les-Bains",
+      "place_id": "ChIJxWo1gbygi0cRCmwTS5n1klY",
+      "data_id": "0x478ba0bc81356ac5:0x5692f5994b136c0a",
+      "data_cid": "6238318472599923722",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0bc81356ac5%3A0x5692f5994b136c0a&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0bc81356ac5%3A0x5692f5994b136c0a&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6898451,
+        "longitude": 5.9132814
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJxWo1gbygi0cRCmwTS5n1klY",
+      "provider_id": "/g/11c5g5zbjb",
+      "rating": 4,
+      "reviews": 4,
+      "type": "Complexe d'appartements meublés",
+      "types": [
+        "Complexe d'appartements meublés"
+      ],
+      "type_id": "furnished_apartment_building",
+      "type_ids": [
+        "furnished_apartment_building"
+      ],
+      "address": "76 Rue du Casino, 73100 Aix-les-Bains, France",
+      "open_state": "Ouvert ⋅ Ferme à 22:00",
+      "hours": "Ouvert ⋅ Ferme à 22:00",
+      "operating_hours": {
+        "vendredi": "08:00–22:00",
+        "samedi": "08:00–22:00",
+        "dimanche": "08:00–22:00",
+        "lundi": "08:00–22:00",
+        "mardi": "08:00–22:00",
+        "mercredi": "08:00–22:00",
+        "jeudi": "08:00–22:00"
+      },
+      "phone": "+33 6 60 53 47 77",
+      "website": "https://sites.google.com/view/locationpourcuristes",
+      "extensions": [
+        {
+          "from_the_business": [
+            "S'identifie comme géré par une femme"
+          ]
+        },
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant"
+          ]
+        },
+        {
+          "parking": [
+            "Parking gratuit"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNCq7jsPszV4OFjFpgEH1sz20j7PbjnZm6B8ZQz=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/G595pnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFng51xonlUcUFwVZuLvluVWkO7qYVhcZWSQZR6QlJUXlWvmZBEVWGVbbmhkpJthaaSbrZuXDwCsGSFE"
+    },
+    {
+      "position": 6,
+      "title": "Location Curiste Durieux Parking",
+      "place_id": "ChIJh9BXD7qhi0cRTgutFKFmLHo",
+      "data_id": "0x478ba1ba0f57d087:0x7a2c66a114ad0b4e",
+      "data_cid": "8803524213625129806",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba1ba0f57d087%3A0x7a2c66a114ad0b4e&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba1ba0f57d087%3A0x7a2c66a114ad0b4e&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6911353,
+        "longitude": 5.915347499999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJh9BXD7qhi0cRTgutFKFmLHo",
+      "provider_id": "/g/11kv7xtzf5",
+      "rating": 5,
+      "reviews": 2,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances",
+        "Hôtel"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment",
+        "hotel"
+      ],
+      "address": "5 Bd des Côtes, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 16 75 17 04",
+      "user_review": "\"très bien placé pour la cure et jolie studio\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNzykzOXu_LN-98lrDLjpXTST37QOgdlenNzTPT=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/05mqHnicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngV1WZXeUfURrv46draZFT5OKTVRAREhxibB7on56Sk5rnVxUSEGJbbmhkpJthaaSbrZuXDwC9VSG_"
+    },
+    {
+      "position": 7,
+      "title": "Le Dossa Via : location pour curistes - Hôtel Beau Site",
+      "place_id": "ChIJ_VKA-Pehi0cRS_lgoaBBRtw",
+      "data_id": "0x478ba1f7f88052fd:0xdc4641a0a160f94b",
+      "data_cid": "15872446094871951691",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba1f7f88052fd%3A0xdc4641a0a160f94b&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba1f7f88052fd%3A0xdc4641a0a160f94b&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6866729,
+        "longitude": 5.9168397
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ_VKA-Pehi0cRS_lgoaBBRtw",
+      "provider_id": "/g/11y55j6l98",
+      "rating": 5,
+      "reviews": 10,
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "9 Bd de la Roche du Roi, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 03 28 06 80",
+      "website": "https://dossavialocation.com/",
+      "user_review": "\"Le Dossa via est un petit appartement très bien aménagé et équipé.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPaYg_dEnqS7IeolVtlxmcR807Aac3TJ0I249eL=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/aM8HdXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQkBiZHp_imlcYbO6Zmp8TVpJTkZscZGFg7piYbBziZeBpZGKZ6mNbbmhkpJthaaSbrZuXDwCvNyDw"
+    },
+    {
+      "position": 8,
+      "title": "Location Curistes Meublé Celine & Alain Lefranc",
+      "place_id": "ChIJd_V2LI2hi0cRICG5nsIk-XU",
+      "data_id": "0x478ba18d2c76f577:0x75f924c29eb92120",
+      "data_cid": "8500866189943709984",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba18d2c76f577%3A0x75f924c29eb92120&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba18d2c76f577%3A0x75f924c29eb92120&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6913347,
+        "longitude": 5.9182691
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJd_V2LI2hi0cRICG5nsIk-XU",
+      "provider_id": "/g/11mxd33kjk",
+      "rating": 5,
+      "reviews": 1,
+      "type": "Complexe d'appartements meublés",
+      "types": [
+        "Complexe d'appartements meublés"
+      ],
+      "type_id": "furnished_apartment_building",
+      "type_ids": [
+        "furnished_apartment_building"
+      ],
+      "address": "11 Bd de Chantemerle, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 47 16 54 10",
+      "website": "https://sites.google.com/view/locationcuristes3/appartement",
+      "extensions": [
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP3a6t8dRclDZmSJJywNma_lmnSbOGvsd_o2Cbv=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/U9kbn3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQYJxoVmKREpSc4xKVG-zlVVnul5sYn5ObF5zk715WnBKfb-ScVGZbbmhkpJthaaSbrZuXDwC-YCIZ"
+    },
+    {
+      "position": 9,
+      "title": "Location cure thermale Aix-les-Bains",
+      "place_id": "ChIJK4LkZTWni0cR9Fx3zGL2iBo",
+      "data_id": "0x478ba73565e4822b:0x1a88f662cc775cf4",
+      "data_cid": "1912048946016378100",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba73565e4822b%3A0x1a88f662cc775cf4&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba73565e4822b%3A0x1a88f662cc775cf4&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.673412,
+        "longitude": 5.918926099999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJK4LkZTWni0cR9Fx3zGL2iBo",
+      "provider_id": "/g/11c1v2ld6b",
+      "rating": 4.3,
+      "reviews": 8,
+      "unclaimed_listing": true,
+      "type": "Agence de location d'appartements",
+      "types": [
+        "Agence de location d'appartements"
+      ],
+      "type_id": "apartment_rental_agency",
+      "type_ids": [
+        "apartment_rental_agency"
+      ],
+      "address": "3 Chem. des Romanes, 73100 Aix-les-Bains, France",
+      "phone": "+33 4 79 88 35 32",
+      "extensions": [
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nonqRbYc6BARx6hTZqUnuMuudBnDRidt3sb3ElUxMFBeXyctx98MswBAuNaqFaFhn_bZLlMRt86-uoGK7wFyt6UaBrTKRwc3oBVqbMZ9o-2FVWwOZrdJwnK1nR5wrK6-9I6UHs=w123-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/8nsYeHicBcHRboIwFADQL6pEOju7ZA90rptit6QRnbwYKIQa8V6hbYr_50_4Nzvn-bDe39xbkvSWzjrErm-Da0eD4FvwM4PXpLs5YhxxSfbB7QsgDLo-GiYyPTG7K4cCggqhEbDS58ZTV9PPvpiUFO3f3fiJL5WLIgs_1SAraeFUl9teab9kJOBX_hrl3bOiEuMu19FQFPuhViVHksr9If6WY7OJkM9BL-KYM8LXrPh273GeUmJ5Si4E8B8XqUUU"
+    },
+    {
+      "position": 10,
+      "title": "Villa-Rivalin Location curistes",
+      "place_id": "ChIJ3WYtg7-gi0cRawMoSq_7EJE",
+      "data_id": "0x478ba0bf832d66dd:0x9110fbaf4a28036b",
+      "data_cid": "10453131465408906091",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0bf832d66dd%3A0x9110fbaf4a28036b&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0bf832d66dd%3A0x9110fbaf4a28036b&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.691164,
+        "longitude": 5.921517
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ3WYtg7-gi0cRawMoSq_7EJE",
+      "provider_id": "/g/11r8q9z2l",
+      "rating": 4.8,
+      "reviews": 94,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances",
+        "Villa"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment",
+        "villa"
+      ],
+      "address": "11 Chem. de Bellevue, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 24 81 08 50",
+      "website": "https://www.villa-rivalin.com/",
+      "user_review": "\"Appartement très pratique, confortable et idéalement situé.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPUmM7FcGcS3iTiSU-cF8BB2csue2_nwTn611mf=w137-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/kQl19HicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQEJrra-6W7J4cbJwZkhkcqpvsZuHkZJRcXJpqFJ9XHpJnZmiYm2ZbbmhsrpthaaSbrZuXDwCX5iDR"
+    },
+    {
+      "position": 11,
+      "title": "Annexe des Thermes - Aix-les-Bains - location meublé 3*** - Curistes, vacanciers, travailleurs",
+      "place_id": "ChIJSQ7E1hqhi0cRngJ8vCalRp4",
+      "data_id": "0x478ba11ad6c40e49:0x9e46a526bc7c029e",
+      "data_cid": "11404984692151943838",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba11ad6c40e49%3A0x9e46a526bc7c029e&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba11ad6c40e49%3A0x9e46a526bc7c029e&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.683160199999996,
+        "longitude": 5.9146361
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJSQ7E1hqhi0cRngJ8vCalRp4",
+      "provider_id": "/g/11wty2wzj3",
+      "rating": 5,
+      "reviews": 1,
+      "type": "Hôtel",
+      "types": [
+        "Hôtel"
+      ],
+      "type_id": "hotel",
+      "type_ids": [
+        "hotel"
+      ],
+      "address": "9 Mnt des Carrières Romaines, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 89 32 75 02",
+      "website": "https://sites.google.com/view/annexedesthermes/accueil",
+      "extensions": [
+        {
+          "crowd": [
+            "LGBTQ+ friendly"
+          ]
+        }
+      ],
+      "user_review": "\"Super logement, très bien décoré et fonctionnel.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipO5Nlc-1748jLW6nLVXJIhIZhDwFa2PuysCRg-4=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/U2YQ8nicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngb-qXk6xraG5ikeUTbpbnExbh5ZnhGZXhUu6WaBRQWlnsHJSua2JbbmhkpJthaaSbrZuXDwCGoCBs"
+    },
+    {
+      "position": 12,
+      "title": "Location curistes jardindulac",
+      "place_id": "ChIJm88eNiULi0cRWIBCqWIcF0M",
+      "data_id": "0x478b0b25361ecf9b:0x43171c62a9428058",
+      "data_cid": "4834363935077597272",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478b0b25361ecf9b%3A0x43171c62a9428058&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478b0b25361ecf9b%3A0x43171c62a9428058&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.7021918,
+        "longitude": 5.8886284
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJm88eNiULi0cRWIBCqWIcF0M",
+      "provider_id": "/g/11yczrmj3x",
+      "type": "Location d'appartement de vacances",
+      "types": [
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "holiday_apartment_rental",
+      "type_ids": [
+        "holiday_apartment_rental"
+      ],
+      "address": "160 Rue Jacques Cartier, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 46 15 05 81",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMp-yJ9zasV1tdgGOEe57BxJxfjm0m_1xisR9RO=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ObNXv3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngW6Bb6WVZlVgcZliSku7u75pqau5U4VWRlpVrkBtvWJFZHGQZ5G9bbmhkpJthaaSbrZuXDwCyWSGD"
+    },
+    {
+      "position": 13,
+      "title": "L’embellie",
+      "place_id": "ChIJp98hE1ahi0cRIubMr2mhIY8",
+      "data_id": "0x478ba1561321dfa7:0x8f21a169afcce622",
+      "data_cid": "10313702096948225570",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba1561321dfa7%3A0x8f21a169afcce622&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba1561321dfa7%3A0x8f21a169afcce622&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.684570699999995,
+        "longitude": 5.9137195
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJp98hE1ahi0cRIubMr2mhIY8",
+      "provider_id": "/g/11y505ycsr",
+      "rating": 5,
+      "reviews": 25,
+      "type": "Hôtel",
+      "types": [
+        "Hôtel",
+        "Complexe d'appartements meublés",
+        "Location d'appartement de vacances"
+      ],
+      "type_id": "hotel",
+      "type_ids": [
+        "hotel",
+        "furnished_apartment_building",
+        "holiday_apartment_rental"
+      ],
+      "address": "50 Rue Victor Hugo, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 63 77 75 34",
+      "website": "https://locationsmeublesaixlesbains.fr/",
+      "extensions": [
+        {
+          "crowd": [
+            "LGBTQ+ friendly"
+          ]
+        }
+      ],
+      "user_review": "\"Dans une rue très calme, à proximité du centre ville à 5 min.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOvlRZ_VPdZah0zGmGWBgQ8CJYce42ieBrD8D5y=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/PWV133icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngX5YTFBUfFpASlZhhUOWe6x7ulB5o4ewVmZxqYpSZ6lTkYuFiWmlbbmhkpJthaaSbrZuXDwCsbSES"
+    },
+    {
+      "position": 14,
+      "title": "résidence montcalm le saphir",
+      "place_id": "ChIJR0gdy7Ghi0cRB7WjrVNobFQ",
+      "data_id": "0x478ba1b1cb1d4847:0x546c6853ada3b507",
+      "data_cid": "6083351905275458823",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba1b1cb1d4847%3A0x546c6853ada3b507&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba1b1cb1d4847%3A0x546c6853ada3b507&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6827305,
+        "longitude": 5.9142093
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJR0gdy7Ghi0cRB7WjrVNobFQ",
+      "provider_id": "/g/11n85m8fbb",
+      "rating": 4.2,
+      "reviews": 5,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "7 Mnt des Carrières Romaines, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 20 86 08 58",
+      "website": "https://residencemontcalmlesaphir.wordpress.com/",
+      "user_review": "\"Les curistes sont en 10-15 mins dans l'eau...\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPjRUSeouXG1stoknwgduB3-cZ7vdlsK1QsCuwY=w163-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/uCYnjHicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFkQkBUUGpyaXxrhblhckp-dV56eUupkrJscZV6WklPsbRhY7FxaHmlbbmhmrJthaaSbrZuXDwDMnCJG"
+    },
+    {
+      "position": 15,
+      "title": "CHARMETE - M et F SALOME",
+      "place_id": "ChIJM_nEOJSgi0cRSmLskx-p2ck",
+      "data_id": "0x478ba09438c4f933:0xc9d9a91f93ec624a",
+      "data_cid": "14544842424660550218",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba09438c4f933%3A0xc9d9a91f93ec624a&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba09438c4f933%3A0xc9d9a91f93ec624a&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6971019,
+        "longitude": 5.9189894
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJM_nEOJSgi0cRSmLskx-p2ck",
+      "provider_id": "/g/11b73qdns3",
+      "rating": 4.7,
+      "reviews": 18,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "4 Imp. du Petit Chantemerle, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 85 40 13 30",
+      "user_review": "\"Très propre, bien équipé, et propriétaires très accueillants et charmants.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOvnifbyUzCB5a25BymMJQhLUujdkqQXM-63tyV=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/x0p9E3icuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngX5aXmZZUGVrl7GSaaGTqVJnr6xWY4RNampWSXRgY4atrZlxSGWZbbmhkpJthaaSbrZuXDwC8vSGs"
+    },
+    {
+      "position": 16,
+      "title": "Le Dôme 2",
+      "place_id": "ChIJ_12W-Lygi0cRsptfO3Ma308",
+      "data_id": "0x478ba0bcf8965dff:0x4fdf1a733b5f9bb2",
+      "data_cid": "5755347931022465970",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0bcf8965dff%3A0x4fdf1a733b5f9bb2&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0bcf8965dff%3A0x4fdf1a733b5f9bb2&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.691421399999996,
+        "longitude": 5.9136866
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ_12W-Lygi0cRsptfO3Ma308",
+      "provider_id": "/g/11bwfkmwsx",
+      "type": "Édifice à appartements",
+      "types": [
+        "Édifice à appartements",
+        "Complexe d'appartements meublés",
+        "Appartement de vacances"
+      ],
+      "type_id": "apartment_building",
+      "type_ids": [
+        "apartment_building",
+        "furnished_apartment_building",
+        "vacation_appartment"
+      ],
+      "address": "6 Pl. des Écoles, 73100 Aix-les-Bains, France",
+      "phone": "+33 6 80 22 36 90",
+      "website": "https://appartementssaisonniersaixlesbains.fr/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNIgERlBtbmuR-rTO2nubM5Xff9GmwfAxQGwVFR=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/sarjMXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFng55nuGpTjVJKUWxqkWxTib5RXmuRrGpGWZumeW57mWBHoXh7mFmRbbmhkpJthaaSbrZuXDwC2HCGj"
+    },
+    {
+      "position": 17,
+      "title": "Location Balaruc les Bains Curistes ou Vacances",
+      "place_id": "ChIJK24pEaFLsRIROAlevUwJrw4",
+      "data_id": "0x12b14ba111296e2b:0xeaf094cbd5e0938",
+      "data_cid": "1058074662654576952",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x12b14ba111296e2b%3A0xeaf094cbd5e0938&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x12b14ba111296e2b%3A0xeaf094cbd5e0938&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 43.438734499999995,
+        "longitude": 3.6790892
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJK24pEaFLsRIROAlevUwJrw4",
+      "provider_id": "/g/11hztl_hx_",
+      "rating": 4.6,
+      "reviews": 27,
+      "type": "Appartement de vacances",
+      "types": [
+        "Appartement de vacances"
+      ],
+      "type_id": "vacation_appartment",
+      "type_ids": [
+        "vacation_appartment"
+      ],
+      "address": "Résidence Le Verseau, 73 Av. des Thermes Athéna Bât B, 34540 Balaruc-les-Bains, France",
+      "phone": "+33 6 21 36 12 71",
+      "website": "http://locationbalaruc.wixsite.com/verseau",
+      "user_review": "\"Il est propre bien équipé.et le prix de la location est très raisonnable.\"",
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOlbEA719I8ZoU8sMLfSjWu2nHaDLuN9NMYFcTc=w80-h106-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/bhgNAXicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngn5Pk6mhuaOlpEZUfalHs65MWnBVeapTnkejiU-pn6ecb6ZYckmxbbmGgm2FoYKabrZuXDwCSvCC1"
+    },
+    {
+      "position": 18,
+      "title": "Le Bernascon",
+      "place_id": "ChIJ45Wkdrmgi0cR_EdAbs7yaSU",
+      "data_id": "0x478ba0b976a495e3:0x2569f2ce6e4047fc",
+      "data_cid": "2695952820384843772",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0b976a495e3%3A0x2569f2ce6e4047fc&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0b976a495e3%3A0x2569f2ce6e4047fc&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6843235,
+        "longitude": 5.9165551999999995
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ45Wkdrmgi0cR_EdAbs7yaSU",
+      "provider_id": "/g/1tkd_vzz",
+      "rating": 4.7,
+      "reviews": 32,
+      "unclaimed_listing": true,
+      "type": "Services d’information",
+      "types": [
+        "Services d’information",
+        "Agence immobilière"
+      ],
+      "type_id": "information_services",
+      "type_ids": [
+        "information_services",
+        "real_estate_agency"
+      ],
+      "address": "Conseil Syndical, 6 Bd de la Roche du Roi 324, 73100 Aix-les-Bains, France",
+      "open_state": "Ouvert actuellement",
+      "website": "http://lebernascon.fr/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Entrée accessible en fauteuil roulant",
+            "Parking accessible en fauteuil roulant"
+          ]
+        }
+      ],
+      "user_review": "\"Superbe palace qui allie le moderne à l’ancien, un joyau de l’architecture!\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqrXrvoHSpnwL9XdVk5zzxaHt2aJ23smVz6TCryOuk-mRyS3YPq0wZKH__LpiV5PubK57jEczWt9Ar0Ip0frgwTpLQjiCenKYKhA2Iq95HWG6xf1n_lJtMODowDw3fp4F7TOBDe=w204-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/ABgapXicBcFbEoIgAADAE5GGWkMzfZhWljb2cOzx45ShlAoIGOX9OkS3aff3JUpxOTGMmliDkrGyxp3EImdUYaoGOWuMkkuQSyAN10PEpq04iRcLDpzqCJ3uaeX0_fsaKHhdQ0s2aT9KPPGJuwo0-8_BOm9bU1_CIMsi_kidbXcLnfFznvdHhVxhrrhZiFInPNo9Hx6m4TkkLly1yAmOy9G7GNKsXqtN7DPta6vg9mKcxDMfTzU0bUAQBBWg7A9tEkV6"
+    },
+    {
+      "position": 19,
+      "title": "Villa-Gentiane",
+      "place_id": "ChIJ31hSB5Wgi0cRTedooIO9GKg",
+      "data_id": "0x478ba095075258df:0xa818bd83a068e74d",
+      "data_cid": "12112639570842543949",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba095075258df%3A0xa818bd83a068e74d&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba095075258df%3A0xa818bd83a068e74d&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.6958604,
+        "longitude": 5.9200947
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ31hSB5Wgi0cRTedooIO9GKg",
+      "provider_id": "/g/1hf33p_bt",
+      "type": "Villa",
+      "types": [
+        "Villa",
+        "Complexe d'appartements meublés"
+      ],
+      "type_id": "villa",
+      "type_ids": [
+        "villa",
+        "furnished_apartment_building"
+      ],
+      "address": "10 Rue des Gentianes, 73100 Aix-les-Bains, France",
+      "open_state": "Ouvert ⋅ Ferme à 18:00",
+      "hours": "Ouvert ⋅ Ferme à 18:00",
+      "operating_hours": {
+        "vendredi": "09:00–18:00",
+        "samedi": "09:00–18:00",
+        "dimanche": "Fermé",
+        "lundi": "09:00–18:00",
+        "mardi": "09:00–18:00",
+        "mercredi": "09:00–18:00",
+        "jeudi": "09:00–18:00"
+      },
+      "phone": "+33 6 79 79 41 24",
+      "website": "http://www.villa-gentiane.com/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Parking accessible en fauteuil roulant"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMjhnUp_F_TwtFsAcdm0T9bD-mzHgkWz2Ss2y4X=w122-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/4CMyInicuxmXUVJSUGylr5-TYayXnp-fnpNaWpxalJyfV5KaV6KXnJ-rX6Dv6GYYmFngm5WRF1oQ7xYfUl7iVuyYnJJrEGKZ5KKbW-WRnh1eZRRcbFRpEmFbbmhkpJthaaSbrZuXDwDCJiHL"
+    },
+    {
+      "position": 20,
+      "title": "ValVital - Thermes & Spa Chevalley Aix-les-Bains",
+      "place_id": "ChIJ86u9Stmgi0cRWhDDFyYuE80",
+      "data_id": "0x478ba0d94abdabf3:0xcd132e2617c3105a",
+      "data_cid": "14777205543475023962",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x478ba0d94abdabf3%3A0xcd132e2617c3105a&engine=google_maps_reviews&hl=fr",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x478ba0d94abdabf3%3A0xcd132e2617c3105a&engine=google_maps_photos&hl=fr",
+      "gps_coordinates": {
+        "latitude": 45.689302,
+        "longitude": 5.919953899999999
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=fr&place_id=ChIJ86u9Stmgi0cRWhDDFyYuE80",
+      "provider_id": "/g/1hm2vtbn8",
+      "rating": 3.9,
+      "reviews": 3254,
+      "type": "Station thermale",
+      "types": [
+        "Station thermale",
+        "Institut de beauté",
+        "Spa",
+        "Institut de spa et bien-être"
+      ],
+      "type_id": "health_spa",
+      "type_ids": [
+        "health_spa",
+        "beauty_salon",
+        "spa",
+        "spa_and_health_club"
+      ],
+      "address": "10 Rte du Revard, 73100 Aix-les-Bains, France",
+      "open_state": "Ouvert ⋅ Ferme à 19:00",
+      "hours": "Ouvert ⋅ Ferme à 19:00",
+      "operating_hours": {
+        "vendredi": "10:00–19:00",
+        "samedi": "10:00–19:00",
+        "dimanche": "10:00–19:00",
+        "lundi": "10:00–19:00",
+        "mardi": "10:00–19:00",
+        "mercredi": "10:00–19:00",
+        "jeudi": "10:00–19:00"
+      },
+      "phone": "+33 4 79 35 38 50",
+      "website": "https://www.valvital.fr/Nos-stations-thermales/Aix-les-Bains-Station-thermale-d-Aix-les-Bains",
+      "extensions": [
+        {
+          "accessibility": [
+            "Entrée accessible en fauteuil roulant",
+            "Parking accessible en fauteuil roulant",
+            "Toilettes accessibles en fauteuil roulant"
+          ]
+        },
+        {
+          "offerings": [
+            "Sauna"
+          ]
+        },
+        {
+          "amenities": [
+            "Restaurant",
+            "Toilettes"
+          ]
+        },
+        {
+          "planning": [
+            "Rendez-vous recommandés"
+          ]
+        },
+        {
+          "payments": [
+            "Cartes de crédit",
+            "Cartes de débit",
+            "Paiements mobiles NFC"
+          ]
+        }
+      ],
+      "user_review": "\"Parking pratique en sous sol mais payant pour les curistes\"",
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrbAqOg8XW8sY6voy5ZOG0ALFmG3ZGbBh_xwOkqHoJjk_Fs44_Huvxjx5jXcsn338fiCbMH8vuf4oS_c3nRs25wDkOAFhEfEUu7LsGtel9oJ4-UNtJflr8wtoGPYMiVh1-8iNGb=w163-h92-k-no",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/cWNNZXicBcFJDoIwFADQE1XUFi0mLnCghKgYjYpuSGiAMtiv_DJ4QA_hbXzv91XGvHBhWbWioxwgr9MW00aCNqk2IwlPK38hkUjQcteOYrpJ3HeY8-jG8T7r4GM_QjF2d95T0IdIVioe-rB6-xCUVewhY7HfdkM52GUkUVPKs2Kd7H3etRmDcyypPuHU7jdV6Hpqm20v7XyHwqS1AwEjl4MJsrrhvQFxvO-Lq5oQXhxEsuwnM0qUMyUV0fAH_gtE6w"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&gl=fr&google_domain=google.fr&hl=fr&ll=%4045.68928146362305%2C5.913509845733643%2C16z&q=location+curistes&start=20&type=search"
+  }
+}
