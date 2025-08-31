@@ -30,9 +30,12 @@ nlp = spacy.load("fr_core_news_sm", disable=["parser", "ner"])
 STOPWORDS_FR = set(stopwords.words("french"))
 STOPWORDS_METIER = {
     "appartement", "studio", "hôtel", "hotel", "residence", "résidence", "location", "logement", "séjour",
-    "appart", "chambre", "logements", "immeuble", "airbnb", "booking", "loc", "curiste", "curistes"
+    "appart", "chambre", "logements", "immeuble", "airbnb", "booking", "loc", "curiste", "curistes", "cure"
 }
-STOPWORDS = STOPWORDS_FR | STOPWORDS_METIER
+STOPWORDS_EXTRACLEANING = {
+    "agréable", "bon", "merci",  "sympathique", "impossible"
+}
+STOPWORDS = STOPWORDS_FR | STOPWORDS_METIER | STOPWORDS_EXTRACLEANING
 
 # Lexiques custom base (adaptés au domaine)
 POS_LEXICON_CUSTOM = {
@@ -61,6 +64,7 @@ NEG_LEXICON_CUSTOM = {
     "problème", "panne", "incident", "malchance", "médiocre",
     "wifi lent", "wifi absent", "pas de chauffage", "pas d’eau chaude",
     "literie mauvaise", "matelas dur", "odeur de tabac", "parking compliqué",
+    "petit", "mauvais"
 }
 
 # Lexiques fusionnés (custom + VADER si dispo)
@@ -202,6 +206,24 @@ def apply_polarity_filter(counter: Counter, *, keep: str = "pos") -> Counter:
     return filtered
 
 
+def drop_common_terms(a: Counter, b: Counter, min_count: int = 2) -> Tuple[Counter, Counter]:
+    """
+    Supprime des deux compteurs 'a' et 'b' les termes communs fréquents.
+    Un terme est considéré commun s'il apparaît dans les DEUX compteurs
+    avec une fréquence >= min_count (dans chacun).
+    Retourne deux nouveaux compteurs (copies filtrées).
+    """
+    # Identifier les termes présents des deux côtés avec une fréquence suffisante
+    common = {t for t in (a.keys() & b.keys()) if a[t] >= min_count and b[t] >= min_count}
+    if not common:
+        return a.copy(), b.copy()
+
+    af = Counter({t: c for t, c in a.items() if t not in common})
+    bf = Counter({t: c for t, c in b.items() if t not in common})
+    logger.info("Suppression de %d termes communs (min_count=%d)", len(common), min_count)
+    return af, bf
+
+
 # ----------------------------- Visualisation / Wordclouds ---------------------
 
 def plot_wordcloud(counter: Counter, title: str, max_words: int = 200) -> None:
@@ -290,41 +312,71 @@ def inspect_lexicon_coverage(df_reviews: pd.DataFrame, top_k: int = 50) -> dict:
 
 
 def plot_wordclouds_by_rating_with_polarity(
-    df_reviews: pd.DataFrame, *, max_words: int = 200, use_bigrams: bool = True
+    df_reviews: pd.DataFrame,
+    *,
+    max_words: int = 200,
+    use_bigrams: bool = True,
+    drop_commons: bool = True,
+    commons_min_count: int = 1,
 ) -> None:
     """
     Génére des nuages de mots basés sur le rating :
     - POSITIF : rating >= 4
     - NEG/NEUTRE : rating <= 3
-    Pipeline : preprocess -> ngram -> filtre polarité -> wordcloud
+    Pipeline : preprocess -> ngram -> filtre polarité -> (option) retrait des communs -> wordcloud
     """
-    logger.info("Nuages par rating avec filtre de polarité…")
+    logger.info("Nuages par rating avec filtre de polarité… (drop_commons=%s, min_count=%d)", drop_commons, commons_min_count)
 
+    # Séparations
     pos = df_reviews[df_reviews["rating"] >= 4]
-    logger.info("Reviews positives: %d", len(pos))
-    if not pos.empty:
-        c_pos_uni = build_counter(pos["review"], ngram_range=(1, 1))
-        c_pos_uni = apply_polarity_filter(c_pos_uni, keep="pos")
-        plot_wordcloud(c_pos_uni, "Nuage — POSITIF (unigrammes, rating ≥ 4)", max_words)
-        if use_bigrams:
-            c_pos_bi = build_counter(pos["review"], ngram_range=(2, 2))
-            c_pos_bi = apply_polarity_filter(c_pos_bi, keep="pos")
-            plot_wordcloud(c_pos_bi, "Nuage — POSITIF (bigrammes, rating ≥ 4)", max_words)
-    else:
-        logger.warning("Aucune review positive.")
-
     neg = df_reviews[df_reviews["rating"] <= 3]
-    logger.info("Reviews négatives/neutres: %d", len(neg))
-    if not neg.empty:
-        c_neg_uni = build_counter(neg["review"], ngram_range=(1, 1))
-        c_neg_uni = apply_polarity_filter(c_neg_uni, keep="neg")
-        plot_wordcloud(c_neg_uni, "Nuage — NÉG/NEUTRE (unigrammes, rating ≤ 3)", max_words)
-        if use_bigrams:
-            c_neg_bi = build_counter(neg["review"], ngram_range=(2, 2))
-            c_neg_bi = apply_polarity_filter(c_neg_bi, keep="neg")
+
+    logger.info("Reviews positives: %d | négatives/neutres: %d", len(pos), len(neg))
+
+    # ---------- UNIGRAMMES ----------
+    if not pos.empty or not neg.empty:
+        # Construire et filtrer par polarité
+        c_pos_uni = build_counter(pos["review"], ngram_range=(1, 1)) if not pos.empty else Counter()
+        c_pos_uni = apply_polarity_filter(c_pos_uni, keep="pos") if c_pos_uni else c_pos_uni
+
+        c_neg_uni = build_counter(neg["review"], ngram_range=(1, 1)) if not neg.empty else Counter()
+        c_neg_uni = apply_polarity_filter(c_neg_uni, keep="neg") if c_neg_uni else c_neg_uni
+
+        # Option : retirer les termes communs fréquents
+        if drop_commons and c_pos_uni and c_neg_uni:
+            c_pos_uni, c_neg_uni = drop_common_terms(c_pos_uni, c_neg_uni, min_count=commons_min_count)
+
+        # Tracé
+        if c_pos_uni:
+            plot_wordcloud(c_pos_uni, "Nuage — POSITIF (unigrammes, rating ≥ 4)", max_words)
+        else:
+            logger.warning("Aucun terme positif après filtrages (unigrammes).")
+
+        if c_neg_uni:
+            plot_wordcloud(c_neg_uni, "Nuage — NÉG/NEUTRE (unigrammes, rating ≤ 3)", max_words)
+        else:
+            logger.warning("Aucun terme négatif/neutre après filtrages (unigrammes).")
+
+    # ---------- BIGRAMMES ----------
+    if use_bigrams and (not pos.empty or not neg.empty):
+        c_pos_bi = build_counter(pos["review"], ngram_range=(2, 2)) if not pos.empty else Counter()
+        c_pos_bi = apply_polarity_filter(c_pos_bi, keep="pos") if c_pos_bi else c_pos_bi
+
+        c_neg_bi = build_counter(neg["review"], ngram_range=(2, 2)) if not neg.empty else Counter()
+        c_neg_bi = apply_polarity_filter(c_neg_bi, keep="neg") if c_neg_bi else c_neg_bi
+
+        if drop_commons and c_pos_bi and c_neg_bi:
+            c_pos_bi, c_neg_bi = drop_common_terms(c_pos_bi, c_neg_bi, min_count=commons_min_count)
+
+        if c_pos_bi:
+            plot_wordcloud(c_pos_bi, "Nuage — POSITIF (bigrammes, rating ≥ 4)", max_words)
+        else:
+            logger.warning("Aucun terme positif après filtrages (bigrammes).")
+
+        if c_neg_bi:
             plot_wordcloud(c_neg_bi, "Nuage — NÉG/NEUTRE (bigrammes, rating ≤ 3)", max_words)
-    else:
-        logger.warning("Aucune review négative/neutre.")
+        else:
+            logger.warning("Aucun terme négatif/neutre après filtrages (bigrammes).")
 
 def check_word_polarity(word: str) -> str:
     """
