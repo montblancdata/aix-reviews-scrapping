@@ -9,7 +9,7 @@ comptages (n-grammes), filtres de polarité et visualisation (wordclouds).
 import logging
 from collections import Counter
 from pathlib import Path
-from typing import Iterable, Tuple, Set
+from typing import Iterable, Tuple, Set, List
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -18,6 +18,8 @@ from matplotlib import font_manager
 from nltk.corpus import stopwords
 from wordcloud import WordCloud
 from vaderSentiment_fr.vaderSentiment import SentimentIntensityAnalyzer
+
+import random
 
 logger = logging.getLogger(__name__)
 
@@ -249,6 +251,75 @@ def plot_wordcloud(counter: Counter, title: str, max_words: int = 200) -> None:
     plt.show()
 
 
+# --- Colorisation par groupes (couleurs fixes pour certains mots, aléatoire pour le reste)
+
+def _make_color_func_groups(groups: List[tuple[set[str], str]], seed: int = 7):
+    """Construit une color_func pour WordCloud qui colore en fixe les mots des
+    groupes fournis et laisse une couleur aléatoire (mais stable) pour les autres.
+
+    - groups: liste de tuples (set_mots, "#RRGGBB"). Les mots sont comparés en minuscule.
+    - seed: graine pour rendre l'aléatoire reproductible.
+    """
+    # Dictionnaire mot->couleur
+    group_color: dict[str, str] = {}
+    for gset, color in (groups or []):
+        for w in gset:
+            group_color[str(w).lower()] = color
+
+    rng = random.Random(seed)
+    palette = [
+        "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
+        "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf",
+        "#000000"
+    ]
+
+    def color_func(word, font_size, position, orientation, random_state=None, **kwargs):
+        w = (word or "").lower()
+        if w in group_color:
+            return group_color[w]
+        #return palette[rng.randrange(len(palette))]
+        return "#d3d3d3" 
+
+    return color_func
+
+
+def plot_wordcloud_colored(
+    counter: Counter,
+    title: str,
+    groups: List[tuple[set[str], str]] | None = None,
+    *,
+    max_words: int = 200,
+) -> None:
+    """Affiche un nuage de mots avec couleurs imposées pour les groupes
+    et couleurs aléatoires pour les autres termes.
+    """
+    if not counter:
+        logger.warning("Pas de données pour %s", title)
+        return
+
+    font_path = font_manager.findfont(font_manager.FontProperties(family="DejaVu Sans"))
+    wc = WordCloud(
+        width=1200,
+        height=800,
+        background_color="white",
+        max_words=max_words,
+        collocations=False,
+        font_path=font_path,
+        random_state=7,
+    ).generate_from_frequencies(dict(counter))
+
+    if groups:
+        color_func = _make_color_func_groups(groups, seed=7)
+        wc = wc.recolor(color_func=color_func, random_state=7)
+
+    plt.figure(figsize=(12, 8))
+    plt.imshow(wc, interpolation="bilinear")
+    plt.axis("off")
+    plt.title(title)
+    plt.tight_layout()
+    plt.show()
+
+
 def build_reviews_df(filepath: str | Path) -> pd.DataFrame:
     """
     Construit un DataFrame minimal des avis à partir d’un Excel :
@@ -317,13 +388,16 @@ def plot_wordclouds_by_rating_with_polarity(
     max_words: int = 200,
     use_bigrams: bool = True,
     drop_commons: bool = True,
-    commons_min_count: int = 1,
+    commons_min_count: int = 2,
+    pos_groups: list[tuple[set[str], str]] | None = None,
+    neg_groups: list[tuple[set[str], str]] | None = None,
 ) -> None:
     """
     Génére des nuages de mots basés sur le rating :
     - POSITIF : rating >= 4
     - NEG/NEUTRE : rating <= 3
-    Pipeline : preprocess -> ngram -> filtre polarité -> (option) retrait des communs -> wordcloud
+    Pipeline : preprocess -> ngram -> filtre polarité -> (option) retrait des communs -> wordcloud.
+    Si pos_groups/neg_groups sont None, la colorisation est aléatoire (WordCloud par défaut).
     """
     logger.info("Nuages par rating avec filtre de polarité… (drop_commons=%s, min_count=%d)", drop_commons, commons_min_count)
 
@@ -348,12 +422,12 @@ def plot_wordclouds_by_rating_with_polarity(
 
         # Tracé
         if c_pos_uni:
-            plot_wordcloud(c_pos_uni, "Nuage — POSITIF (unigrammes, rating ≥ 4)", max_words)
+            plot_wordcloud_colored(c_pos_uni, "Nuage — POSITIF (unigrammes, rating ≥ 4)", groups=pos_groups, max_words=max_words)
         else:
             logger.warning("Aucun terme positif après filtrages (unigrammes).")
 
         if c_neg_uni:
-            plot_wordcloud(c_neg_uni, "Nuage — NÉG/NEUTRE (unigrammes, rating ≤ 3)", max_words)
+            plot_wordcloud_colored(c_neg_uni, "Nuage — NÉG/NEUTRE (unigrammes, rating ≤ 3)", groups=neg_groups, max_words=max_words)
         else:
             logger.warning("Aucun terme négatif/neutre après filtrages (unigrammes).")
 
@@ -369,14 +443,48 @@ def plot_wordclouds_by_rating_with_polarity(
             c_pos_bi, c_neg_bi = drop_common_terms(c_pos_bi, c_neg_bi, min_count=commons_min_count)
 
         if c_pos_bi:
-            plot_wordcloud(c_pos_bi, "Nuage — POSITIF (bigrammes, rating ≥ 4)", max_words)
+            plot_wordcloud_colored(c_pos_bi, "Nuage — POSITIF (bigrammes, rating ≥ 4)", groups=pos_groups, max_words=max_words)
         else:
             logger.warning("Aucun terme positif après filtrages (bigrammes).")
 
         if c_neg_bi:
-            plot_wordcloud(c_neg_bi, "Nuage — NÉG/NEUTRE (bigrammes, rating ≤ 3)", max_words)
+            plot_wordcloud_colored(c_neg_bi, "Nuage — NÉG/NEUTRE (bigrammes, rating ≤ 3)", groups=neg_groups, max_words=max_words)
         else:
             logger.warning("Aucun terme négatif/neutre après filtrages (bigrammes).")
+
+
+# ---------- Groupes par défaut (après analyse des données, pour coloriser les nuages) ----------
+POS_G1 = {  # Propreté / état irréprochable
+    "propre", "impeccable", "irréprochable", "propreté", "nickel", "net",
+    "propreté", "soigné"
+}
+
+POS_G2 = {  # Localisation / proximité atouts (thermes/lac/centre)
+    "thermes", "lac", "proximité", "proche", "pied", "emplacement",
+    "centre", "centre-ville", "gare", "bus", "quartier", "cadre", "vue"
+}
+
+POS_G3 = {  # Relation / service hôte
+    "hôte", "accueillant", "chaleureux", "disponible", "écoute", "serviable",
+    "réactif", "gentil", "attention", "attentif", "bienveillance", "accueil"
+}
+
+NEG_G1 = {  # Literie / confort de sommeil
+    "oreiller", "coussin", "lit", "inconfort", "inconfortable", "désagréable",
+    "sommeil", "matelas", "froid", "bruyant", "épais"
+}
+
+NEG_G2 = {  # Vétusté / état / équipements
+    "vieux", "vétuste", "meuble", "dépareillé", "usé", "étroit", "sombre",
+    "petit", "humide", "démodé", "réception", "moustique", "isolé"
+}
+
+NEG_G3 = {  # Prix / valeur perçue
+    "excessif", "montant", "cher", "prix", "argent", "coût", "onéreux"
+}
+
+pos_groups = [(POS_G1, "#1f77b4"), (POS_G2, "#2ca02c"), (POS_G3, "#ff7f0e")]
+neg_groups = [(NEG_G1, "#d62728"), (NEG_G2, "#9467bd"), (NEG_G3, "#17becf")]
 
 def check_word_polarity(word: str) -> str:
     """

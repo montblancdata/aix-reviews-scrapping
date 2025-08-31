@@ -22,6 +22,8 @@ from src.analyze_nlp_data import (
     build_reviews_df,
     inspect_lexicon_coverage,
     plot_wordclouds_by_rating_with_polarity,
+    pos_groups,
+    neg_groups    
 )
 
 # ----------------------------- Logging global ---------------------------------
@@ -82,5 +84,5 @@ if __name__ == "__main__":
     inspect_lexicon_coverage(df_reviews, top_k=40)
 
     # Génère les nuages (unigrams + bigrams) par polarité (basé sur le rating)
-    plot_wordclouds_by_rating_with_polarity(df_reviews, max_words=200, use_bigrams=True)
+    plot_wordclouds_by_rating_with_polarity(df_reviews, max_words=200, use_bigrams=False, commons_min_count=1, pos_groups=pos_groups, neg_groups=neg_groups)
     
