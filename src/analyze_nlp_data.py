@@ -325,3 +325,21 @@ def plot_wordclouds_by_rating_with_polarity(
             plot_wordcloud(c_neg_bi, "Nuage — NÉG/NEUTRE (bigrammes, rating ≤ 3)", max_words)
     else:
         logger.warning("Aucune review négative/neutre.")
+
+def check_word_polarity(word: str) -> str:
+    """
+    Vérifie si un mot est présent dans le lexique positif ou négatif.
+    """
+    if not isinstance(word, str):
+        return "absent"
+
+    normalized = word.strip().lower()
+    if not normalized:
+        return "absent"
+
+    if normalized in POS_LEXICON:
+        return "positive"
+    elif normalized in NEG_LEXICON:
+        return "negative"
+    else:
+        return "absent"
