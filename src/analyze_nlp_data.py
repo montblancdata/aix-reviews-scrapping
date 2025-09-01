@@ -20,13 +20,15 @@ from wordcloud import WordCloud
 from vaderSentiment_fr.vaderSentiment import SentimentIntensityAnalyzer
 
 import random
+from sklearn.cluster import KMeans
+import numpy as np
 
 logger = logging.getLogger(__name__)
 
 # ----------------------------- Ressources linguistiques ------------------------
 
 # spaCy : tokenizer + tagger + lemmatizer (pas de parser/NER pour perf)
-nlp = spacy.load("fr_core_news_sm", disable=["parser", "ner"])
+nlp = spacy.load("fr_core_news_lg", disable=["parser", "ner"])
 
 # Stopwords FR + stopwords de contexte (hébergement)
 STOPWORDS_FR = set(stopwords.words("french"))
@@ -165,6 +167,8 @@ def preprocess_text(text: str) -> list[str]:
     doc = nlp((text or "").lower())
     kept: list[str] = []
     for tok in doc:
+        if tok.ent_type_ == "PER" or tok.pos_ == "PROPN":
+            continue
         if tok.is_alpha and len(tok.text) > 1 and tok.pos_ in {"NOUN", "ADJ"}:
             lem = tok.lemma_
             if lem not in STOPWORDS:
@@ -224,6 +228,121 @@ def drop_common_terms(a: Counter, b: Counter, min_count: int = 2) -> Tuple[Count
     bf = Counter({t: c for t, c in b.items() if t not in common})
     logger.info("Suppression de %d termes communs (min_count=%d)", len(common), min_count)
     return af, bf
+
+
+# ----------------------------- Clustering automatique de mots (spaCy only) ---
+
+def _embed_words_spacy(words: list[str]) -> dict[str, np.ndarray]:
+    """Crée des embeddings de mots via spaCy 
+
+    - Pour chaque mot, on récupère `nlp(w).vector`.
+    - On filtre les vecteurs nuls (norme = 0)
+    - Retourne un dict {mot: vecteur} pour les mots valides.
+
+    """
+    out: dict[str, np.ndarray] = {}
+    for w in words:
+        doc = nlp(w)
+        vec = getattr(doc, "vector", None)
+        if vec is not None:
+            try:
+                if np.linalg.norm(vec) > 0:
+                    out[w] = vec
+            except Exception:
+                # Si `vec` n'est pas un array numpy compatible, on ignore silencieusement
+                pass
+    logger.info("Embeddings spaCy valides: %d / %d", len(out), len(words))
+    return out
+
+
+def cluster_words(counter: Counter, n_clusters: int = 3, top_n: int = 100) -> dict[int, list[str]]:
+    """Clusterise les top_n mots d'un Counter en `n_clusters` thèmes via KMeans.
+
+    Étapes:
+      1) Sélection des mots les plus fréquents (pour limiter le bruit)
+      2) Embeddings spaCy (filtrage des vecteurs nuls)
+      3) KMeans pour regrouper en `n_clusters`
+
+    Retour: dict {cluster_id: [mots]}
+    """
+    if not counter:
+        logger.warning("Clusterisation impossible : Counter vide")
+        return {}
+
+    # 1) Top mots
+    most_common = counter.most_common(max(1, top_n))
+    words = [w for w, _ in most_common]
+    logger.info("Clusterisation (spaCy only) sur %d mots (top_n=%d, k=%d)", len(words), top_n, n_clusters)
+
+    # 2) Embeddings spaCy
+    emb = _embed_words_spacy(words)
+    if len(emb) < n_clusters:
+        logger.warning(
+            "Embeddings spaCy insuffisants (%d vecteurs valides) pour %d clusters — abandon.",
+            len(emb), n_clusters,
+        )
+        return {}
+
+    X = np.vstack(list(emb.values()))
+    w_valid = list(emb.keys())
+
+    # 3) KMeans
+    try:
+        km = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
+        labels = km.fit_predict(X)
+    except Exception as e:
+        logger.error("Échec KMeans: %s", e)
+        return {}
+
+    # Organisation des résultats
+    grouped: dict[int, list[str]] = {}
+    for w, lab in zip(w_valid, labels):
+        grouped.setdefault(lab, []).append(w)
+
+    for lab, terms in grouped.items():
+        logger.info("Cluster %d (%d mots): %s", lab, len(terms), sorted(terms)[:15])
+    return grouped
+
+
+def cluster_from_reviews(
+    df_reviews: pd.DataFrame,
+    *,
+    n_clusters_pos: int = 3,
+    n_clusters_neg: int = 3,
+    top_n: int = 100,
+) -> tuple[dict[int, list[str]], dict[int, list[str]]]:
+    """Pipeline pratique pour clusteriser automatiquement positif et négatif.
+
+    - Sépare les reviews en POS (rating ≥ 4) et NEG/NEUTRE (rating ≤ 3)
+    - Construit des compteurs unigrammes avec `build_counter`
+    - Applique `apply_polarity_filter` pour garder les termes cohérents avec la polarité
+    - Lance `cluster_words`
+
+    Retour: (clusters_pos, clusters_neg)
+    """
+    pos = df_reviews[df_reviews["rating"] >= 4]
+    neg = df_reviews[df_reviews["rating"] <= 3]
+
+    c_pos = build_counter(pos["review"], ngram_range=(1, 1)) if not pos.empty else Counter()
+    c_pos = apply_polarity_filter(c_pos, keep="pos") if c_pos else c_pos
+
+    c_neg = build_counter(neg["review"], ngram_range=(1, 1)) if not neg.empty else Counter()
+    c_neg = apply_polarity_filter(c_neg, keep="neg") if c_neg else c_neg
+
+    logger.info(
+        "Clusterisation auto — POS reviews: %d | NEG/NEUTRE reviews: %d (top_n=%d)",
+        len(pos), len(neg), top_n,
+    )
+
+    clusters_pos = cluster_words(c_pos, n_clusters=n_clusters_pos, top_n=top_n) if c_pos else {}
+    clusters_neg = cluster_words(c_neg, n_clusters=n_clusters_neg, top_n=top_n) if c_neg else {}
+
+    if not clusters_pos:
+        logger.warning("Aucun cluster POS généré (vecteurs spaCy insuffisants ou données limitées).")
+    if not clusters_neg:
+        logger.warning("Aucun cluster NEG généré (vecteurs spaCy insuffisants ou données limitées).")
+
+    return clusters_pos, clusters_neg
 
 
 # ----------------------------- Visualisation / Wordclouds ---------------------
