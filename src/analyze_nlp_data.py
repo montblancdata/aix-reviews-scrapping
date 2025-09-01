@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 # ----------------------------- Ressources linguistiques ------------------------
 
 # spaCy : tokenizer + tagger + lemmatizer (pas de parser/NER pour perf)
-nlp = spacy.load("fr_core_news_lg", disable=["parser", "ner"])
+nlp = spacy.load("fr_core_news_sm", disable=["parser", "ner"])
 
 # Stopwords FR + stopwords de contexte (hébergement)
 STOPWORDS_FR = set(stopwords.words("french"))
@@ -37,7 +37,7 @@ STOPWORDS_METIER = {
     "appart", "chambre", "logements", "immeuble", "airbnb", "booking", "loc", "curiste", "curistes", "cure"
 }
 STOPWORDS_EXTRACLEANING = {
-    "agréable", "bon", "merci",  "sympathique", "impossible"
+    "agréable", "bon", "merci",  "sympathique", "impossible", "an", "vu"
 }
 STOPWORDS = STOPWORDS_FR | STOPWORDS_METIER | STOPWORDS_EXTRACLEANING
 
@@ -300,7 +300,10 @@ def cluster_words(counter: Counter, n_clusters: int = 3, top_n: int = 100) -> di
         grouped.setdefault(lab, []).append(w)
 
     for lab, terms in grouped.items():
-        logger.info("Cluster %d (%d mots): %s", lab, len(terms), sorted(terms)[:15])
+        # Tri par fréquence our un aperçu plus pertinent
+        terms_sorted = sorted(terms, key=lambda t: counter.get(t, 0), reverse=True)
+        preview = terms_sorted[:25]
+        logger.info("Cluster %d (%d mots) — top25 par fréquence: %s", lab, len(terms), preview)
     return grouped
 
 
@@ -575,27 +578,29 @@ def plot_wordclouds_by_rating_with_polarity(
 # ---------- Groupes par défaut (après analyse des données, pour coloriser les nuages) ----------
 POS_G1 = {  # Propreté / état irréprochable
     "propre", "impeccable", "irréprochable", "propreté", "nickel", "net",
-    "propreté", "soigné"
+    "propreté", "soigné", "soin", "lave"
 }
 
 POS_G2 = {  # Localisation / proximité atouts (thermes/lac/centre)
     "thermes", "lac", "proximité", "proche", "pied", "emplacement",
-    "centre", "centre-ville", "gare", "bus", "quartier", "cadre", "vue"
+    "centre", "centre-ville", "gare", "bus", "quartier", "cadre", "vue",
+    "adresse"
 }
 
 POS_G3 = {  # Relation / service hôte
     "hôte", "accueillant", "chaleureux", "disponible", "écoute", "serviable",
-    "réactif", "gentil", "attention", "attentif", "bienveillance", "accueil"
+    "réactif", "gentil", "attention", "attentif", "bienveillance", "accueil",
+    "conseil", "question", "disponibilité", "propriétaire"
 }
 
 NEG_G1 = {  # Literie / confort de sommeil
     "oreiller", "coussin", "lit", "inconfort", "inconfortable", "désagréable",
-    "sommeil", "matelas", "froid", "bruyant", "épais"
+    "sommeil", "matelas", "froid", "bruyant"
 }
 
 NEG_G2 = {  # Vétusté / état / équipements
     "vieux", "vétuste", "meuble", "dépareillé", "usé", "étroit", "sombre",
-    "petit", "humide", "démodé", "réception", "moustique", "isolé"
+    "petit", "humide", "démodé", "réception", "moustique", "isolé", "inutilisable"
 }
 
 NEG_G3 = {  # Prix / valeur perçue

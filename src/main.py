@@ -54,7 +54,7 @@ if __name__ == "__main__":
     load_dotenv()
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
     SERP_API_KEY = os.getenv("SERP_API_KEY")
-    """
+    
     # ========== 1) Ingestion, nettoyage & export des Google places ==========
     df_places = fetch_data(INPUT_JSON_DIR)
     df_places = clean_data(df_places)
@@ -73,7 +73,7 @@ if __name__ == "__main__":
    
     # ========== 3) Visualisation simple des Google reviews (hors NLP) ==========
     show_data(REVIEWS_XLSX, top_n=20)
-    """
+    
     # ========== 4) Analyse NLP & Wordclouds ==========
     # Prépare les lexiques de polarité (liste custom + VADER)
     build_and_set_polarity_lexicons(include_vader=True)
@@ -87,7 +87,7 @@ if __name__ == "__main__":
     # Génère les nuages (unigrams + bigrams) par polarité (basé sur le rating)
     plot_wordclouds_by_rating_with_polarity(df_reviews, max_words=200, use_bigrams=False, commons_min_count=1, pos_groups=pos_groups, neg_groups=neg_groups)
     
-    # ========== Test non concluant : exploration cluserisation auto ==========
+    # ========== Bonus : exploration cluserisation auto ==========
     clusters_pos, clusters_neg = cluster_from_reviews(
         df_reviews, 
         n_clusters_pos=3, 
